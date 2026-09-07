@@ -1,0 +1,30 @@
+{
+  "seed": 0,
+  "dataset": "CIFAR-100-C",
+  "corruption": "gaussian_noise",
+  "severity": 5,
+  "case": "clip_c1",
+  "system": "Tent 10遍 + 裁剪 C=1",
+  "case_dir": "/home/chenyaofo/wanzhangqi/GuessWork2/outputs/p3_seed0/line_5_clip_c1",
+  "source": {
+    "score_ent_auc": 0.5022815,
+    "score_conf_auc": 0.502911,
+    "score_ce_auc": 0.49761175,
+    "top1_eval": 11.7
+  },
+  "tent": {
+    "score_ent_auc": 0.503227125,
+    "score_conf_auc": 0.50712775,
+    "score_ce_auc": 0.49992737500000006,
+    "top1_eval": 38.6,
+    "adapt_loss": 1.5037007190287113,
+    "adapt_batches": 320.0
+  },
+  "adaptation": {
+    "steps": 320,
+    "rounds": 10,
+    "clip_norm": 1.0,
+    "frozen_affine": false
+  },
+  "checkpoint_path": "/home/chenyaofo/wanzhangqi/GuessWork2/outputs/p3_seed0/line_5_clip_c1/clipped_seed0.pth"
+}
