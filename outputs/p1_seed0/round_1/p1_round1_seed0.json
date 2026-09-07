@@ -1,0 +1,20 @@
+{
+  "system": "Tent",
+  "rounds": 1,
+  "round_dir": "/home/chenyaofo/wanzhangqi/GuessWork2/outputs/p1_seed0/round_1",
+  "checkpoint_path": "/home/chenyaofo/wanzhangqi/GuessWork2/outputs/p1_seed0/round_1/adapted_tent_round1_seed0.pth",
+  "source": {
+    "score_ent_auc": 0.5022815,
+    "score_conf_auc": 0.502911,
+    "score_ce_auc": 0.49761175,
+    "top1_eval": 11.7
+  },
+  "tent": {
+    "score_ent_auc": 0.5095930000000001,
+    "score_conf_auc": 0.51259,
+    "score_ce_auc": 0.4996769999999999,
+    "top1_eval": 41.2,
+    "adapt_loss": 1.5085132420063019,
+    "adapt_batches": 32.0
+  }
+}
