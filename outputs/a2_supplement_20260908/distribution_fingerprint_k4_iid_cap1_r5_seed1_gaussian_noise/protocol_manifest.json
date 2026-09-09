@@ -1,0 +1,58 @@
+{
+  "public_header_fields": [
+    "protocol",
+    "carrier",
+    "round_id",
+    "window_id",
+    "class_cap",
+    "window_size",
+    "sample_count",
+    "selected_count_total",
+    "selected_fraction",
+    "actual_count_total",
+    "effective_count_total",
+    "aggregation_weight",
+    "class_active_count",
+    "class_count_l2",
+    "confidence_mean",
+    "entropy_mean",
+    "payload_bytes",
+    "bytes",
+    "message_hash",
+    "payload_hash"
+  ],
+  "private_diagnostic_fields": [
+    "sender_client_id",
+    "domain_label",
+    "sample_indices",
+    "class_counts",
+    "class_actual_counts",
+    "class_effective_counts",
+    "selected_indices",
+    "selected_mask",
+    "pseudo_hist"
+  ],
+  "visibility_modes": [
+    "payload_only",
+    "payload_header",
+    "full_transcript"
+  ],
+  "protocols": [
+    "local_tent_plain",
+    "local_eata",
+    "noraw_silent",
+    "noraw"
+  ],
+  "scenario": {
+    "tag": "distribution_fingerprint",
+    "seed": 1,
+    "corruption": "gaussian_noise",
+    "severity": 5,
+    "split_type": "iid",
+    "client_count": 4,
+    "rounds": 5,
+    "class_cap": 1,
+    "carrier": "prototype",
+    "n_c": 1
+  }
+}

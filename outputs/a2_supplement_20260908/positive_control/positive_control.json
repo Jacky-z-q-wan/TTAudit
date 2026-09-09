@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "predicted_without_bank": [
+    1,
+    0
+  ],
+  "predicted_with_bank": [
+    0,
+    1
+  ],
+  "swapped_with_bank": [
+    1,
+    0
+  ],
+  "bank_norm": 1.0,
+  "swap_effect": true
+}
