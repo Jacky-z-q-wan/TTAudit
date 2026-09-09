@@ -1,0 +1,12 @@
+{
+  "python": "/home/chenyaofo/miniconda3/envs/cc/bin/python",
+  "python_version": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "torch_version": "2.4.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "repository_url": "https://github.com/baowenxuan/Latte.git",
+  "official_commit": "7c2e02501e56e86dc6fa9e78ec606201a9674c55",
+  "expected_commit": "7c2e02501e56e86dc6fa9e78ec606201a9674c55"
+}

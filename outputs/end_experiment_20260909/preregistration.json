@@ -1,0 +1,90 @@
+{
+  "experiment": "End",
+  "version": "v1.0",
+  "date": "20260909",
+  "document": "/home/chenyaofo/wanzhangqi/GuessWork2/End.md",
+  "document_sha256": "65e86772bf1206dad6b3b159268e8cb00aecca0b012abc4b05b5ebbdf494161b",
+  "method": "Latte",
+  "repository": "https://github.com/baowenxuan/Latte.git",
+  "expected_commit": "7c2e02501e56e86dc6fa9e78ec606201a9674c55",
+  "config": {
+    "seed": 0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model_name": "ViT-B/16",
+    "model_path": "/home/chenyaofo/.cache/clip/ViT-B-16.pt",
+    "cifar_root": "/home/chenyaofo/mr/datasets/corruption/CIFAR-100-C",
+    "vlcs_root": "/home/chenyaofo/mr/datasets/domain_generalization/VLCS",
+    "cifar_domains": [
+      "gaussian_noise",
+      "shot_noise",
+      "impulse_noise",
+      "brightness"
+    ],
+    "cifar_severity": 5,
+    "cifar_clients_per_domain": 4,
+    "vlcs_domains": [
+      "CALTECH",
+      "LABELME",
+      "SUN",
+      "PASCAL"
+    ],
+    "vlcs_clients_per_domain": 3,
+    "audit_phase_lengths_cifar": [
+      16,
+      16,
+      16
+    ],
+    "utility_count_cifar": 64,
+    "audit_phase_lengths_vlcs": [
+      8,
+      8,
+      8
+    ],
+    "utility_count_vlcs": 48,
+    "attack_messages_per_client": 8,
+    "link_q_values": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "attack_dim": 256,
+    "batch_size": 256,
+    "num_workers": 0,
+    "use_cuda": true,
+    "run_date": "20260909"
+  },
+  "gates": {
+    "G1_mean_top1_gain": 1.0,
+    "G1_positive_seeds": 2,
+    "G2_payload_metric": 0.65,
+    "G2_client_cluster_ci_lower": 0.55,
+    "G3_random_control_max_auc_star": 0.6,
+    "G4_external_validity": "two datasets or two task families"
+  },
+  "audit_observation_surfaces": [
+    "payload-only",
+    "header-only",
+    "payload+public-header"
+  ],
+  "attack_budget": {
+    "messages_per_client_per_phase": 8,
+    "link_q_values": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "time_streams": [
+    "calibration",
+    "validation",
+    "future",
+    "utility"
+  ],
+  "source_code_policy": "Official Latte source is untouched; audit behavior is implemented in subclasses under TTAudit/end_experiment."
+}
