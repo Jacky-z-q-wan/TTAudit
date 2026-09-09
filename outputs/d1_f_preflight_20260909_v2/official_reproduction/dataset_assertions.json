@@ -1,0 +1,234 @@
+{
+  "CIFAR100CFull": {
+    "dataset": "CIFAR100CFull",
+    "expected": {
+      "classes": 100,
+      "environment_count": 19,
+      "clients_per_environment": 3,
+      "total_samples": 60000,
+      "per_environment_samples": 60000
+    },
+    "observed": {
+      "author_cache_candidates": [
+        {
+          "directory": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/CIFAR100CFull/ViT-B-16",
+          "valid": true,
+          "error": null,
+          "observed_environment_count": 19,
+          "observed_environment_lengths": {
+            "gaussian_noise": 60000,
+            "shot_noise": 60000,
+            "impulse_noise": 60000,
+            "speckle_noise": 60000,
+            "defocus_blur": 60000,
+            "glass_blur": 60000,
+            "motion_blur": 60000,
+            "zoom_blur": 60000,
+            "gaussian_blur": 60000,
+            "snow": 60000,
+            "frost": 60000,
+            "fog": 60000,
+            "brightness": 60000,
+            "spatter": 60000,
+            "contrast": 60000,
+            "elastic_transform": 60000,
+            "pixelate": 60000,
+            "jpeg_compression": 60000,
+            "saturate": 60000
+          }
+        }
+      ],
+      "raw_data_candidates": [],
+      "loaded_source": {
+        "dataset": "CIFAR100CFull",
+        "source": "author_full_cache",
+        "source_root": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/CIFAR100CFull/ViT-B-16",
+        "classes": 100,
+        "environments": [
+          "gaussian_noise",
+          "shot_noise",
+          "impulse_noise",
+          "speckle_noise",
+          "defocus_blur",
+          "glass_blur",
+          "motion_blur",
+          "zoom_blur",
+          "gaussian_blur",
+          "snow",
+          "frost",
+          "fog",
+          "brightness",
+          "spatter",
+          "contrast",
+          "elastic_transform",
+          "pixelate",
+          "jpeg_compression",
+          "saturate"
+        ],
+        "environment_lengths": {
+          "gaussian_noise": 60000,
+          "shot_noise": 60000,
+          "impulse_noise": 60000,
+          "speckle_noise": 60000,
+          "defocus_blur": 60000,
+          "glass_blur": 60000,
+          "motion_blur": 60000,
+          "zoom_blur": 60000,
+          "gaussian_blur": 60000,
+          "snow": 60000,
+          "frost": 60000,
+          "fog": 60000,
+          "brightness": 60000,
+          "spatter": 60000,
+          "contrast": 60000,
+          "elastic_transform": 60000,
+          "pixelate": 60000,
+          "jpeg_compression": 60000,
+          "saturate": 60000
+        },
+        "client_count": 57,
+        "client_total": 60000,
+        "no_cross_client_original_index_overlap": true,
+        "valid": true,
+        "hard_failure_reasons": []
+      }
+    },
+    "valid": true,
+    "hard_failure_reasons": [],
+    "source": "author_full_cache",
+    "source_root": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/CIFAR100CFull/ViT-B-16",
+    "classes": 100,
+    "environments": [
+      "gaussian_noise",
+      "shot_noise",
+      "impulse_noise",
+      "speckle_noise",
+      "defocus_blur",
+      "glass_blur",
+      "motion_blur",
+      "zoom_blur",
+      "gaussian_blur",
+      "snow",
+      "frost",
+      "fog",
+      "brightness",
+      "spatter",
+      "contrast",
+      "elastic_transform",
+      "pixelate",
+      "jpeg_compression",
+      "saturate"
+    ],
+    "environment_lengths": {
+      "gaussian_noise": 60000,
+      "shot_noise": 60000,
+      "impulse_noise": 60000,
+      "speckle_noise": 60000,
+      "defocus_blur": 60000,
+      "glass_blur": 60000,
+      "motion_blur": 60000,
+      "zoom_blur": 60000,
+      "gaussian_blur": 60000,
+      "snow": 60000,
+      "frost": 60000,
+      "fog": 60000,
+      "brightness": 60000,
+      "spatter": 60000,
+      "contrast": 60000,
+      "elastic_transform": 60000,
+      "pixelate": 60000,
+      "jpeg_compression": 60000,
+      "saturate": 60000
+    },
+    "client_count": 57,
+    "client_total": 60000,
+    "no_cross_client_original_index_overlap": true
+  },
+  "VLCS": {
+    "dataset": "VLCS",
+    "expected": {
+      "classes": 5,
+      "environment_count": 4,
+      "clients_per_environment": 10,
+      "total_samples": 10729,
+      "per_environment_samples": null
+    },
+    "observed": {
+      "author_cache_candidates": [
+        {
+          "directory": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/CIFAR100CFull/ViT-B-16",
+          "valid": false,
+          "error": "Unexpected environment order in /home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/CIFAR100CFull/ViT-B-16: ['gaussian_noise', 'shot_noise', 'impulse_noise', 'speckle_noise', 'defocus_blur', 'glass_blur', 'motion_blur', 'zoom_blur', 'gaussian_blur', 'snow', 'frost', 'fog', 'brightness', 'spatter', 'contrast', 'elastic_transform', 'pixelate', 'jpeg_compression', 'saturate'] (expected ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'])"
+        },
+        {
+          "directory": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/VLCS/ViT-B-16",
+          "valid": true,
+          "error": null,
+          "observed_environment_count": 4,
+          "observed_environment_lengths": {
+            "Caltech101": 1415,
+            "LabelMe": 2656,
+            "SUN09": 3282,
+            "VOC2007": 3376
+          }
+        }
+      ],
+      "raw_data_candidates": [
+        {
+          "directory": "/home/chenyaofo/mr/datasets/domain_generalization/VLCS",
+          "exists": true,
+          "observed_domain_counts": {
+            "Caltech101": 424,
+            "LabelMe": 797,
+            "SUN09": 985,
+            "VOC2007": 1013
+          },
+          "observed_total": 3219
+        }
+      ],
+      "loaded_source": {
+        "dataset": "VLCS",
+        "source": "author_full_cache",
+        "source_root": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/VLCS/ViT-B-16",
+        "classes": 5,
+        "environments": [
+          "Caltech101",
+          "LabelMe",
+          "SUN09",
+          "VOC2007"
+        ],
+        "environment_lengths": {
+          "Caltech101": 1415,
+          "LabelMe": 2656,
+          "SUN09": 3282,
+          "VOC2007": 3376
+        },
+        "client_count": 40,
+        "client_total": 10729,
+        "no_cross_client_original_index_overlap": true,
+        "valid": true,
+        "hard_failure_reasons": []
+      }
+    },
+    "valid": true,
+    "hard_failure_reasons": [],
+    "source": "author_full_cache",
+    "source_root": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/Latte-Cached-Embedding/VLCS/ViT-B-16",
+    "classes": 5,
+    "environments": [
+      "Caltech101",
+      "LabelMe",
+      "SUN09",
+      "VOC2007"
+    ],
+    "environment_lengths": {
+      "Caltech101": 1415,
+      "LabelMe": 2656,
+      "SUN09": 3282,
+      "VOC2007": 3376
+    },
+    "client_count": 40,
+    "client_total": 10729,
+    "no_cross_client_original_index_overlap": true
+  }
+}

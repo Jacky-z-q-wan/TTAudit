@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "dataset": "VLCS",
+  "client_id": "VOC2007_9",
+  "member_count": 32,
+  "nonmember_count": 32,
+  "auc": 0.5185546875,
+  "note": "Representative sample-membership negative control only; not a D1-F gate."
+}

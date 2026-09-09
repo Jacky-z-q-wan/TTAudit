@@ -1,0 +1,107 @@
+{
+  "dataset": "CIFAR100CFull",
+  "seed": 1,
+  "algorithm": "latte",
+  "accuracy": 39.45,
+  "total_correct": 23670,
+  "total_samples": 60000,
+  "client_count": 57,
+  "domain_metrics": {
+    "gaussian_noise": {
+      "correct": 727,
+      "total": 3158,
+      "accuracy": 23.020899303356554
+    },
+    "shot_noise": {
+      "correct": 784,
+      "total": 3159,
+      "accuracy": 24.817980373535928
+    },
+    "impulse_noise": {
+      "correct": 970,
+      "total": 3158,
+      "accuracy": 30.71564281190627
+    },
+    "speckle_noise": {
+      "correct": 759,
+      "total": 3158,
+      "accuracy": 24.034198860038
+    },
+    "defocus_blur": {
+      "correct": 1407,
+      "total": 3158,
+      "accuracy": 44.55351488283724
+    },
+    "glass_blur": {
+      "correct": 658,
+      "total": 3157,
+      "accuracy": 20.84257206208426
+    },
+    "motion_blur": {
+      "correct": 1394,
+      "total": 3159,
+      "accuracy": 44.12788857233301
+    },
+    "zoom_blur": {
+      "correct": 1579,
+      "total": 3157,
+      "accuracy": 50.015837820715866
+    },
+    "gaussian_blur": {
+      "correct": 1432,
+      "total": 3158,
+      "accuracy": 45.34515516149462
+    },
+    "snow": {
+      "correct": 1532,
+      "total": 3159,
+      "accuracy": 48.496359607470716
+    },
+    "frost": {
+      "correct": 1583,
+      "total": 3157,
+      "accuracy": 50.142540386442825
+    },
+    "fog": {
+      "correct": 1287,
+      "total": 3159,
+      "accuracy": 40.74074074074074
+    },
+    "brightness": {
+      "correct": 1855,
+      "total": 3157,
+      "accuracy": 58.75831485587583
+    },
+    "spatter": {
+      "correct": 1869,
+      "total": 3158,
+      "accuracy": 59.18302723242559
+    },
+    "contrast": {
+      "correct": 1104,
+      "total": 3158,
+      "accuracy": 34.958834705509815
+    },
+    "elastic_transform": {
+      "correct": 970,
+      "total": 3158,
+      "accuracy": 30.71564281190627
+    },
+    "pixelate": {
+      "correct": 879,
+      "total": 3158,
+      "accuracy": 27.834072197593414
+    },
+    "jpeg_compression": {
+      "correct": 1097,
+      "total": 3158,
+      "accuracy": 34.73717542748575
+    },
+    "saturate": {
+      "correct": 1784,
+      "total": 3156,
+      "accuracy": 56.52724968314322
+    }
+  },
+  "elapsed_seconds": 105.97549033164978
+}

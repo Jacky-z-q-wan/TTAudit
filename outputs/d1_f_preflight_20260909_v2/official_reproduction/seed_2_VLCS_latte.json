@@ -1,0 +1,32 @@
+{
+  "dataset": "VLCS",
+  "seed": 2,
+  "algorithm": "latte",
+  "accuracy": 82.63584677043528,
+  "total_correct": 8866,
+  "total_samples": 10729,
+  "client_count": 40,
+  "domain_metrics": {
+    "Caltech101": {
+      "correct": 1414,
+      "total": 1415,
+      "accuracy": 99.92932862190813
+    },
+    "LabelMe": {
+      "correct": 1949,
+      "total": 2656,
+      "accuracy": 73.38102409638554
+    },
+    "SUN09": {
+      "correct": 2638,
+      "total": 3282,
+      "accuracy": 80.37781840341255
+    },
+    "VOC2007": {
+      "correct": 2865,
+      "total": 3376,
+      "accuracy": 84.86374407582939
+    }
+  },
+  "elapsed_seconds": 15.826905727386475
+}

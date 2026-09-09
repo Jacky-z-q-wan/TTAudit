@@ -1,0 +1,614 @@
+{
+  "rows": [
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 1
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6171875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 0,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 2
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 0,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 4
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.5,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 0,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 8
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.546875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.125,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 0,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 0,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 1
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.609375,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.125,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 1,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 2
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 1,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 4
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.5,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 1,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 8
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.46875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.125,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 1,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 1,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 1
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 2,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 2
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 2,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 4
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.5,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 2,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 8
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.8125,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.75,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 2,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 2,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 1
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.609375,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.125,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 3,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 2
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 3,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 4
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.5,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 3,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 8
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.546875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.0,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 3,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 3,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 1
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.609375,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 4,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 1
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 2
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.625,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 4,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 2
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 4
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.6875,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.5,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 4,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 4
+    },
+    {
+      "status": "failed",
+      "mode": "payload",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 8
+    },
+    {
+      "status": "completed",
+      "mode": "header",
+      "model": "nearest_class_center",
+      "parameter": 0.0,
+      "auroc": 0.578125,
+      "balanced_accuracy": 50.0,
+      "tpr_at_fpr_1_percent": 0.25,
+      "client_bootstrap_ci95_accuracy": [
+        50.0,
+        50.0
+      ],
+      "seed": 4,
+      "q": 8
+    },
+    {
+      "status": "failed",
+      "mode": "payload_header",
+      "error": "Input contains NaN.",
+      "seed": 4,
+      "q": 8
+    }
+  ],
+  "random_label_control": {
+    "rows": [
+      {
+        "seed": 0,
+        "q": 1,
+        "balanced_accuracy": 50.0
+      },
+      {
+        "seed": 1,
+        "q": 1,
+        "balanced_accuracy": 50.0
+      },
+      {
+        "seed": 2,
+        "q": 1,
+        "balanced_accuracy": 50.0
+      },
+      {
+        "seed": 3,
+        "q": 1,
+        "balanced_accuracy": 50.0
+      },
+      {
+        "seed": 4,
+        "q": 1,
+        "balanced_accuracy": 50.0
+      }
+    ],
+    "expected_random_balanced_accuracy": 50.0
+  }
+}

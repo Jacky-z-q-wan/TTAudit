@@ -1,0 +1,1470 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "datasets": {
+    "CIFAR100CFull": {
+      "no_adapt": [
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 0,
+          "algorithm": "no_adapt",
+          "accuracy": 38.821666666666665,
+          "total_correct": 23293,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 697,
+              "total": 3158,
+              "accuracy": 22.0709309689677
+            },
+            "shot_noise": {
+              "correct": 769,
+              "total": 3159,
+              "accuracy": 24.343146565368787
+            },
+            "impulse_noise": {
+              "correct": 948,
+              "total": 3158,
+              "accuracy": 30.018999366687776
+            },
+            "speckle_noise": {
+              "correct": 785,
+              "total": 3158,
+              "accuracy": 24.857504749841674
+            },
+            "defocus_blur": {
+              "correct": 1405,
+              "total": 3158,
+              "accuracy": 44.49018366054465
+            },
+            "glass_blur": {
+              "correct": 631,
+              "total": 3157,
+              "accuracy": 19.987329743427303
+            },
+            "motion_blur": {
+              "correct": 1365,
+              "total": 3159,
+              "accuracy": 43.20987654320987
+            },
+            "zoom_blur": {
+              "correct": 1506,
+              "total": 3157,
+              "accuracy": 47.703515996198924
+            },
+            "gaussian_blur": {
+              "correct": 1341,
+              "total": 3158,
+              "accuracy": 42.46358454718176
+            },
+            "snow": {
+              "correct": 1505,
+              "total": 3159,
+              "accuracy": 47.641658752769864
+            },
+            "frost": {
+              "correct": 1585,
+              "total": 3157,
+              "accuracy": 50.205891669306304
+            },
+            "fog": {
+              "correct": 1336,
+              "total": 3159,
+              "accuracy": 42.29186451408674
+            },
+            "brightness": {
+              "correct": 1851,
+              "total": 3157,
+              "accuracy": 58.63161229014887
+            },
+            "spatter": {
+              "correct": 1880,
+              "total": 3158,
+              "accuracy": 59.53134895503483
+            },
+            "contrast": {
+              "correct": 1132,
+              "total": 3158,
+              "accuracy": 35.84547181760608
+            },
+            "elastic_transform": {
+              "correct": 949,
+              "total": 3158,
+              "accuracy": 30.05066497783407
+            },
+            "pixelate": {
+              "correct": 812,
+              "total": 3158,
+              "accuracy": 25.71247625079164
+            },
+            "jpeg_compression": {
+              "correct": 1020,
+              "total": 3158,
+              "accuracy": 32.29892336922103
+            },
+            "saturate": {
+              "correct": 1776,
+              "total": 3156,
+              "accuracy": 56.27376425855513
+            }
+          },
+          "elapsed_seconds": 14.98910903930664
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 1,
+          "algorithm": "no_adapt",
+          "accuracy": 38.748333333333335,
+          "total_correct": 23249,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 714,
+              "total": 3158,
+              "accuracy": 22.60924635845472
+            },
+            "shot_noise": {
+              "correct": 753,
+              "total": 3159,
+              "accuracy": 23.836657169990502
+            },
+            "impulse_noise": {
+              "correct": 921,
+              "total": 3158,
+              "accuracy": 29.164027865737808
+            },
+            "speckle_noise": {
+              "correct": 740,
+              "total": 3158,
+              "accuracy": 23.432552248258393
+            },
+            "defocus_blur": {
+              "correct": 1374,
+              "total": 3158,
+              "accuracy": 43.5085497150095
+            },
+            "glass_blur": {
+              "correct": 629,
+              "total": 3157,
+              "accuracy": 19.923978460563827
+            },
+            "motion_blur": {
+              "correct": 1377,
+              "total": 3159,
+              "accuracy": 43.58974358974359
+            },
+            "zoom_blur": {
+              "correct": 1554,
+              "total": 3157,
+              "accuracy": 49.2239467849224
+            },
+            "gaussian_blur": {
+              "correct": 1419,
+              "total": 3158,
+              "accuracy": 44.93350221659278
+            },
+            "snow": {
+              "correct": 1507,
+              "total": 3159,
+              "accuracy": 47.70496992719215
+            },
+            "frost": {
+              "correct": 1571,
+              "total": 3157,
+              "accuracy": 49.762432689261956
+            },
+            "fog": {
+              "correct": 1289,
+              "total": 3159,
+              "accuracy": 40.80405191516303
+            },
+            "brightness": {
+              "correct": 1817,
+              "total": 3157,
+              "accuracy": 57.55464048146975
+            },
+            "spatter": {
+              "correct": 1843,
+              "total": 3158,
+              "accuracy": 58.35972134262191
+            },
+            "contrast": {
+              "correct": 1109,
+              "total": 3158,
+              "accuracy": 35.11716276124129
+            },
+            "elastic_transform": {
+              "correct": 947,
+              "total": 3158,
+              "accuracy": 29.98733375554148
+            },
+            "pixelate": {
+              "correct": 853,
+              "total": 3158,
+              "accuracy": 27.01076630778974
+            },
+            "jpeg_compression": {
+              "correct": 1077,
+              "total": 3158,
+              "accuracy": 34.10386320455985
+            },
+            "saturate": {
+              "correct": 1755,
+              "total": 3156,
+              "accuracy": 55.60836501901141
+            }
+          },
+          "elapsed_seconds": 15.047269821166992
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 2,
+          "algorithm": "no_adapt",
+          "accuracy": 38.955,
+          "total_correct": 23373,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 707,
+              "total": 3158,
+              "accuracy": 22.387587080430652
+            },
+            "shot_noise": {
+              "correct": 740,
+              "total": 3159,
+              "accuracy": 23.425134536245647
+            },
+            "impulse_noise": {
+              "correct": 930,
+              "total": 3158,
+              "accuracy": 29.449018366054464
+            },
+            "speckle_noise": {
+              "correct": 814,
+              "total": 3158,
+              "accuracy": 25.77580747308423
+            },
+            "defocus_blur": {
+              "correct": 1376,
+              "total": 3158,
+              "accuracy": 43.57188093730209
+            },
+            "glass_blur": {
+              "correct": 655,
+              "total": 3157,
+              "accuracy": 20.74754513778904
+            },
+            "motion_blur": {
+              "correct": 1334,
+              "total": 3159,
+              "accuracy": 42.22855333966445
+            },
+            "zoom_blur": {
+              "correct": 1550,
+              "total": 3157,
+              "accuracy": 49.09724421919544
+            },
+            "gaussian_blur": {
+              "correct": 1339,
+              "total": 3158,
+              "accuracy": 42.40025332488917
+            },
+            "snow": {
+              "correct": 1587,
+              "total": 3159,
+              "accuracy": 50.237416904083574
+            },
+            "frost": {
+              "correct": 1552,
+              "total": 3157,
+              "accuracy": 49.16059550205892
+            },
+            "fog": {
+              "correct": 1362,
+              "total": 3159,
+              "accuracy": 43.11490978157645
+            },
+            "brightness": {
+              "correct": 1867,
+              "total": 3157,
+              "accuracy": 59.1384225530567
+            },
+            "spatter": {
+              "correct": 1857,
+              "total": 3158,
+              "accuracy": 58.80303989867004
+            },
+            "contrast": {
+              "correct": 1122,
+              "total": 3158,
+              "accuracy": 35.52881570614313
+            },
+            "elastic_transform": {
+              "correct": 969,
+              "total": 3158,
+              "accuracy": 30.683977200759976
+            },
+            "pixelate": {
+              "correct": 824,
+              "total": 3158,
+              "accuracy": 26.092463584547183
+            },
+            "jpeg_compression": {
+              "correct": 1042,
+              "total": 3158,
+              "accuracy": 32.99556681443952
+            },
+            "saturate": {
+              "correct": 1746,
+              "total": 3156,
+              "accuracy": 55.32319391634981
+            }
+          },
+          "elapsed_seconds": 15.749746322631836
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 3,
+          "algorithm": "no_adapt",
+          "accuracy": 38.66833333333333,
+          "total_correct": 23201,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 723,
+              "total": 3158,
+              "accuracy": 22.894236858771375
+            },
+            "shot_noise": {
+              "correct": 745,
+              "total": 3159,
+              "accuracy": 23.58341247230136
+            },
+            "impulse_noise": {
+              "correct": 921,
+              "total": 3158,
+              "accuracy": 29.164027865737808
+            },
+            "speckle_noise": {
+              "correct": 758,
+              "total": 3158,
+              "accuracy": 24.002533248891705
+            },
+            "defocus_blur": {
+              "correct": 1377,
+              "total": 3158,
+              "accuracy": 43.603546548448385
+            },
+            "glass_blur": {
+              "correct": 609,
+              "total": 3157,
+              "accuracy": 19.290465631929045
+            },
+            "motion_blur": {
+              "correct": 1365,
+              "total": 3159,
+              "accuracy": 43.20987654320987
+            },
+            "zoom_blur": {
+              "correct": 1528,
+              "total": 3157,
+              "accuracy": 48.40038010769718
+            },
+            "gaussian_blur": {
+              "correct": 1368,
+              "total": 3158,
+              "accuracy": 43.31855604813173
+            },
+            "snow": {
+              "correct": 1490,
+              "total": 3159,
+              "accuracy": 47.16682494460272
+            },
+            "frost": {
+              "correct": 1548,
+              "total": 3157,
+              "accuracy": 49.03389293633196
+            },
+            "fog": {
+              "correct": 1363,
+              "total": 3159,
+              "accuracy": 43.14656536878759
+            },
+            "brightness": {
+              "correct": 1817,
+              "total": 3157,
+              "accuracy": 57.55464048146975
+            },
+            "spatter": {
+              "correct": 1884,
+              "total": 3158,
+              "accuracy": 59.658011399620015
+            },
+            "contrast": {
+              "correct": 1120,
+              "total": 3158,
+              "accuracy": 35.46548448385054
+            },
+            "elastic_transform": {
+              "correct": 939,
+              "total": 3158,
+              "accuracy": 29.73400886637112
+            },
+            "pixelate": {
+              "correct": 835,
+              "total": 3158,
+              "accuracy": 26.44078530715643
+            },
+            "jpeg_compression": {
+              "correct": 1089,
+              "total": 3158,
+              "accuracy": 34.48385053831539
+            },
+            "saturate": {
+              "correct": 1722,
+              "total": 3156,
+              "accuracy": 54.56273764258555
+            }
+          },
+          "elapsed_seconds": 15.346899509429932
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 4,
+          "algorithm": "no_adapt",
+          "accuracy": 38.74,
+          "total_correct": 23244,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 703,
+              "total": 3158,
+              "accuracy": 22.260924635845473
+            },
+            "shot_noise": {
+              "correct": 769,
+              "total": 3159,
+              "accuracy": 24.343146565368787
+            },
+            "impulse_noise": {
+              "correct": 970,
+              "total": 3158,
+              "accuracy": 30.71564281190627
+            },
+            "speckle_noise": {
+              "correct": 740,
+              "total": 3158,
+              "accuracy": 23.432552248258393
+            },
+            "defocus_blur": {
+              "correct": 1367,
+              "total": 3158,
+              "accuracy": 43.28689043698543
+            },
+            "glass_blur": {
+              "correct": 649,
+              "total": 3157,
+              "accuracy": 20.557491289198605
+            },
+            "motion_blur": {
+              "correct": 1368,
+              "total": 3159,
+              "accuracy": 43.3048433048433
+            },
+            "zoom_blur": {
+              "correct": 1544,
+              "total": 3157,
+              "accuracy": 48.90719037060501
+            },
+            "gaussian_blur": {
+              "correct": 1327,
+              "total": 3158,
+              "accuracy": 42.02026599113363
+            },
+            "snow": {
+              "correct": 1558,
+              "total": 3159,
+              "accuracy": 49.31940487496043
+            },
+            "frost": {
+              "correct": 1582,
+              "total": 3157,
+              "accuracy": 50.110864745011085
+            },
+            "fog": {
+              "correct": 1364,
+              "total": 3159,
+              "accuracy": 43.17822095599873
+            },
+            "brightness": {
+              "correct": 1865,
+              "total": 3157,
+              "accuracy": 59.07507127019322
+            },
+            "spatter": {
+              "correct": 1822,
+              "total": 3158,
+              "accuracy": 57.69474350854971
+            },
+            "contrast": {
+              "correct": 1103,
+              "total": 3158,
+              "accuracy": 34.92716909436352
+            },
+            "elastic_transform": {
+              "correct": 940,
+              "total": 3158,
+              "accuracy": 29.765674477517415
+            },
+            "pixelate": {
+              "correct": 807,
+              "total": 3158,
+              "accuracy": 25.554148195060165
+            },
+            "jpeg_compression": {
+              "correct": 1047,
+              "total": 3158,
+              "accuracy": 33.153894870170994
+            },
+            "saturate": {
+              "correct": 1719,
+              "total": 3156,
+              "accuracy": 54.46768060836502
+            }
+          },
+          "elapsed_seconds": 15.314521789550781
+        }
+      ],
+      "latte": [
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 0,
+          "algorithm": "latte",
+          "accuracy": 39.45,
+          "total_correct": 23670,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 728,
+              "total": 3158,
+              "accuracy": 23.05256491450285
+            },
+            "shot_noise": {
+              "correct": 777,
+              "total": 3159,
+              "accuracy": 24.596391263057928
+            },
+            "impulse_noise": {
+              "correct": 989,
+              "total": 3158,
+              "accuracy": 31.317289423685878
+            },
+            "speckle_noise": {
+              "correct": 814,
+              "total": 3158,
+              "accuracy": 25.77580747308423
+            },
+            "defocus_blur": {
+              "correct": 1431,
+              "total": 3158,
+              "accuracy": 45.31348955034832
+            },
+            "glass_blur": {
+              "correct": 650,
+              "total": 3157,
+              "accuracy": 20.589166930630345
+            },
+            "motion_blur": {
+              "correct": 1377,
+              "total": 3159,
+              "accuracy": 43.58974358974359
+            },
+            "zoom_blur": {
+              "correct": 1538,
+              "total": 3157,
+              "accuracy": 48.71713652201457
+            },
+            "gaussian_blur": {
+              "correct": 1381,
+              "total": 3158,
+              "accuracy": 43.730208993033564
+            },
+            "snow": {
+              "correct": 1519,
+              "total": 3159,
+              "accuracy": 48.084836973725864
+            },
+            "frost": {
+              "correct": 1613,
+              "total": 3157,
+              "accuracy": 51.09280962939499
+            },
+            "fog": {
+              "correct": 1313,
+              "total": 3159,
+              "accuracy": 41.56378600823045
+            },
+            "brightness": {
+              "correct": 1882,
+              "total": 3157,
+              "accuracy": 59.61355717453279
+            },
+            "spatter": {
+              "correct": 1900,
+              "total": 3158,
+              "accuracy": 60.16466117796073
+            },
+            "contrast": {
+              "correct": 1136,
+              "total": 3158,
+              "accuracy": 35.97213426219126
+            },
+            "elastic_transform": {
+              "correct": 964,
+              "total": 3158,
+              "accuracy": 30.5256491450285
+            },
+            "pixelate": {
+              "correct": 823,
+              "total": 3158,
+              "accuracy": 26.060797973400888
+            },
+            "jpeg_compression": {
+              "correct": 1030,
+              "total": 3158,
+              "accuracy": 32.61557948068398
+            },
+            "saturate": {
+              "correct": 1805,
+              "total": 3156,
+              "accuracy": 57.19264892268694
+            }
+          },
+          "elapsed_seconds": 107.14472723007202
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 1,
+          "algorithm": "latte",
+          "accuracy": 39.45,
+          "total_correct": 23670,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 727,
+              "total": 3158,
+              "accuracy": 23.020899303356554
+            },
+            "shot_noise": {
+              "correct": 784,
+              "total": 3159,
+              "accuracy": 24.817980373535928
+            },
+            "impulse_noise": {
+              "correct": 970,
+              "total": 3158,
+              "accuracy": 30.71564281190627
+            },
+            "speckle_noise": {
+              "correct": 759,
+              "total": 3158,
+              "accuracy": 24.034198860038
+            },
+            "defocus_blur": {
+              "correct": 1407,
+              "total": 3158,
+              "accuracy": 44.55351488283724
+            },
+            "glass_blur": {
+              "correct": 658,
+              "total": 3157,
+              "accuracy": 20.84257206208426
+            },
+            "motion_blur": {
+              "correct": 1394,
+              "total": 3159,
+              "accuracy": 44.12788857233301
+            },
+            "zoom_blur": {
+              "correct": 1579,
+              "total": 3157,
+              "accuracy": 50.015837820715866
+            },
+            "gaussian_blur": {
+              "correct": 1432,
+              "total": 3158,
+              "accuracy": 45.34515516149462
+            },
+            "snow": {
+              "correct": 1532,
+              "total": 3159,
+              "accuracy": 48.496359607470716
+            },
+            "frost": {
+              "correct": 1583,
+              "total": 3157,
+              "accuracy": 50.142540386442825
+            },
+            "fog": {
+              "correct": 1287,
+              "total": 3159,
+              "accuracy": 40.74074074074074
+            },
+            "brightness": {
+              "correct": 1855,
+              "total": 3157,
+              "accuracy": 58.75831485587583
+            },
+            "spatter": {
+              "correct": 1869,
+              "total": 3158,
+              "accuracy": 59.18302723242559
+            },
+            "contrast": {
+              "correct": 1104,
+              "total": 3158,
+              "accuracy": 34.958834705509815
+            },
+            "elastic_transform": {
+              "correct": 970,
+              "total": 3158,
+              "accuracy": 30.71564281190627
+            },
+            "pixelate": {
+              "correct": 879,
+              "total": 3158,
+              "accuracy": 27.834072197593414
+            },
+            "jpeg_compression": {
+              "correct": 1097,
+              "total": 3158,
+              "accuracy": 34.73717542748575
+            },
+            "saturate": {
+              "correct": 1784,
+              "total": 3156,
+              "accuracy": 56.52724968314322
+            }
+          },
+          "elapsed_seconds": 105.97549033164978
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 2,
+          "algorithm": "latte",
+          "accuracy": 39.645,
+          "total_correct": 23787,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 737,
+              "total": 3158,
+              "accuracy": 23.337555414819505
+            },
+            "shot_noise": {
+              "correct": 765,
+              "total": 3159,
+              "accuracy": 24.216524216524217
+            },
+            "impulse_noise": {
+              "correct": 977,
+              "total": 3158,
+              "accuracy": 30.937302089930334
+            },
+            "speckle_noise": {
+              "correct": 839,
+              "total": 3158,
+              "accuracy": 26.567447751741607
+            },
+            "defocus_blur": {
+              "correct": 1388,
+              "total": 3158,
+              "accuracy": 43.951868271057634
+            },
+            "glass_blur": {
+              "correct": 659,
+              "total": 3157,
+              "accuracy": 20.874247703515998
+            },
+            "motion_blur": {
+              "correct": 1352,
+              "total": 3159,
+              "accuracy": 42.79835390946502
+            },
+            "zoom_blur": {
+              "correct": 1577,
+              "total": 3157,
+              "accuracy": 49.952486537852394
+            },
+            "gaussian_blur": {
+              "correct": 1369,
+              "total": 3158,
+              "accuracy": 43.35022165927803
+            },
+            "snow": {
+              "correct": 1613,
+              "total": 3159,
+              "accuracy": 51.060462171573285
+            },
+            "frost": {
+              "correct": 1578,
+              "total": 3157,
+              "accuracy": 49.984162179284134
+            },
+            "fog": {
+              "correct": 1363,
+              "total": 3159,
+              "accuracy": 43.14656536878759
+            },
+            "brightness": {
+              "correct": 1898,
+              "total": 3157,
+              "accuracy": 60.120367437440606
+            },
+            "spatter": {
+              "correct": 1875,
+              "total": 3158,
+              "accuracy": 59.373020899303356
+            },
+            "contrast": {
+              "correct": 1118,
+              "total": 3158,
+              "accuracy": 35.40215326155795
+            },
+            "elastic_transform": {
+              "correct": 998,
+              "total": 3158,
+              "accuracy": 31.602279924002534
+            },
+            "pixelate": {
+              "correct": 859,
+              "total": 3158,
+              "accuracy": 27.200759974667513
+            },
+            "jpeg_compression": {
+              "correct": 1056,
+              "total": 3158,
+              "accuracy": 33.438885370487654
+            },
+            "saturate": {
+              "correct": 1766,
+              "total": 3156,
+              "accuracy": 55.956907477820025
+            }
+          },
+          "elapsed_seconds": 107.71617531776428
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 3,
+          "algorithm": "latte",
+          "accuracy": 39.415,
+          "total_correct": 23649,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 741,
+              "total": 3158,
+              "accuracy": 23.464217859404688
+            },
+            "shot_noise": {
+              "correct": 767,
+              "total": 3159,
+              "accuracy": 24.279835390946502
+            },
+            "impulse_noise": {
+              "correct": 959,
+              "total": 3158,
+              "accuracy": 30.367321089297022
+            },
+            "speckle_noise": {
+              "correct": 776,
+              "total": 3158,
+              "accuracy": 24.572514249525018
+            },
+            "defocus_blur": {
+              "correct": 1413,
+              "total": 3158,
+              "accuracy": 44.74350854971501
+            },
+            "glass_blur": {
+              "correct": 655,
+              "total": 3157,
+              "accuracy": 20.74754513778904
+            },
+            "motion_blur": {
+              "correct": 1392,
+              "total": 3159,
+              "accuracy": 44.06457739791073
+            },
+            "zoom_blur": {
+              "correct": 1559,
+              "total": 3157,
+              "accuracy": 49.38232499208109
+            },
+            "gaussian_blur": {
+              "correct": 1415,
+              "total": 3158,
+              "accuracy": 44.8068397720076
+            },
+            "snow": {
+              "correct": 1491,
+              "total": 3159,
+              "accuracy": 47.198480531813864
+            },
+            "frost": {
+              "correct": 1556,
+              "total": 3157,
+              "accuracy": 49.28729806778587
+            },
+            "fog": {
+              "correct": 1379,
+              "total": 3159,
+              "accuracy": 43.65305476416587
+            },
+            "brightness": {
+              "correct": 1832,
+              "total": 3157,
+              "accuracy": 58.029775102945834
+            },
+            "spatter": {
+              "correct": 1915,
+              "total": 3158,
+              "accuracy": 60.63964534515516
+            },
+            "contrast": {
+              "correct": 1129,
+              "total": 3158,
+              "accuracy": 35.75047498416719
+            },
+            "elastic_transform": {
+              "correct": 967,
+              "total": 3158,
+              "accuracy": 30.620645978467383
+            },
+            "pixelate": {
+              "correct": 866,
+              "total": 3158,
+              "accuracy": 27.422419252691576
+            },
+            "jpeg_compression": {
+              "correct": 1092,
+              "total": 3158,
+              "accuracy": 34.57884737175427
+            },
+            "saturate": {
+              "correct": 1745,
+              "total": 3156,
+              "accuracy": 55.2915082382763
+            }
+          },
+          "elapsed_seconds": 106.74253344535828
+        },
+        {
+          "dataset": "CIFAR100CFull",
+          "seed": 4,
+          "algorithm": "latte",
+          "accuracy": 39.318333333333335,
+          "total_correct": 23591,
+          "total_samples": 60000,
+          "client_count": 57,
+          "domain_metrics": {
+            "gaussian_noise": {
+              "correct": 722,
+              "total": 3158,
+              "accuracy": 22.86257124762508
+            },
+            "shot_noise": {
+              "correct": 794,
+              "total": 3159,
+              "accuracy": 25.134536245647357
+            },
+            "impulse_noise": {
+              "correct": 987,
+              "total": 3158,
+              "accuracy": 31.25395820139329
+            },
+            "speckle_noise": {
+              "correct": 770,
+              "total": 3158,
+              "accuracy": 24.382520582647246
+            },
+            "defocus_blur": {
+              "correct": 1406,
+              "total": 3158,
+              "accuracy": 44.52184927169095
+            },
+            "glass_blur": {
+              "correct": 663,
+              "total": 3157,
+              "accuracy": 21.000950269242953
+            },
+            "motion_blur": {
+              "correct": 1391,
+              "total": 3159,
+              "accuracy": 44.03292181069959
+            },
+            "zoom_blur": {
+              "correct": 1564,
+              "total": 3157,
+              "accuracy": 49.540703199239786
+            },
+            "gaussian_blur": {
+              "correct": 1367,
+              "total": 3158,
+              "accuracy": 43.28689043698543
+            },
+            "snow": {
+              "correct": 1571,
+              "total": 3159,
+              "accuracy": 49.730927508705285
+            },
+            "frost": {
+              "correct": 1585,
+              "total": 3157,
+              "accuracy": 50.205891669306304
+            },
+            "fog": {
+              "correct": 1364,
+              "total": 3159,
+              "accuracy": 43.17822095599873
+            },
+            "brightness": {
+              "correct": 1891,
+              "total": 3157,
+              "accuracy": 59.898637947418436
+            },
+            "spatter": {
+              "correct": 1849,
+              "total": 3158,
+              "accuracy": 58.549715009499685
+            },
+            "contrast": {
+              "correct": 1093,
+              "total": 3158,
+              "accuracy": 34.61051298290057
+            },
+            "elastic_transform": {
+              "correct": 948,
+              "total": 3158,
+              "accuracy": 30.018999366687776
+            },
+            "pixelate": {
+              "correct": 820,
+              "total": 3158,
+              "accuracy": 25.965801139962
+            },
+            "jpeg_compression": {
+              "correct": 1051,
+              "total": 3158,
+              "accuracy": 33.28055731475617
+            },
+            "saturate": {
+              "correct": 1755,
+              "total": 3156,
+              "accuracy": 55.60836501901141
+            }
+          },
+          "elapsed_seconds": 108.48645544052124
+        }
+      ],
+      "no_adapt_mean": 38.78666666666667,
+      "no_adapt_std": 0.10864058991821504,
+      "latte_mean": 39.455666666666666,
+      "latte_std": 0.11877031989890852,
+      "seed_gains": [
+        0.6283333333333374,
+        0.701666666666668,
+        0.6900000000000048,
+        0.7466666666666697,
+        0.5783333333333331
+      ],
+      "positive_seed_count": 5,
+      "anchor": {
+        "no_adapt": 38.91,
+        "latte": 39.51,
+        "no_adapt_abs_error": 0.12333333333332774,
+        "latte_abs_error": 0.054333333333332234
+      },
+      "sample_count_valid": true
+    },
+    "VLCS": {
+      "no_adapt": [
+        {
+          "dataset": "VLCS",
+          "seed": 0,
+          "algorithm": "no_adapt",
+          "accuracy": 80.81834280920869,
+          "total_correct": 8671,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1413,
+              "total": 1415,
+              "accuracy": 99.85865724381625
+            },
+            "LabelMe": {
+              "correct": 1863,
+              "total": 2656,
+              "accuracy": 70.14307228915662
+            },
+            "SUN09": {
+              "correct": 2515,
+              "total": 3282,
+              "accuracy": 76.63010359536868
+            },
+            "VOC2007": {
+              "correct": 2880,
+              "total": 3376,
+              "accuracy": 85.30805687203791
+            }
+          },
+          "elapsed_seconds": 2.817699432373047
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 1,
+          "algorithm": "no_adapt",
+          "accuracy": 80.81834280920869,
+          "total_correct": 8671,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1413,
+              "total": 1415,
+              "accuracy": 99.85865724381625
+            },
+            "LabelMe": {
+              "correct": 1863,
+              "total": 2656,
+              "accuracy": 70.14307228915662
+            },
+            "SUN09": {
+              "correct": 2515,
+              "total": 3282,
+              "accuracy": 76.63010359536868
+            },
+            "VOC2007": {
+              "correct": 2880,
+              "total": 3376,
+              "accuracy": 85.30805687203791
+            }
+          },
+          "elapsed_seconds": 2.6829111576080322
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 2,
+          "algorithm": "no_adapt",
+          "accuracy": 80.81834280920869,
+          "total_correct": 8671,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1413,
+              "total": 1415,
+              "accuracy": 99.85865724381625
+            },
+            "LabelMe": {
+              "correct": 1863,
+              "total": 2656,
+              "accuracy": 70.14307228915662
+            },
+            "SUN09": {
+              "correct": 2515,
+              "total": 3282,
+              "accuracy": 76.63010359536868
+            },
+            "VOC2007": {
+              "correct": 2880,
+              "total": 3376,
+              "accuracy": 85.30805687203791
+            }
+          },
+          "elapsed_seconds": 2.6870601177215576
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 3,
+          "algorithm": "no_adapt",
+          "accuracy": 80.81834280920869,
+          "total_correct": 8671,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1413,
+              "total": 1415,
+              "accuracy": 99.85865724381625
+            },
+            "LabelMe": {
+              "correct": 1863,
+              "total": 2656,
+              "accuracy": 70.14307228915662
+            },
+            "SUN09": {
+              "correct": 2515,
+              "total": 3282,
+              "accuracy": 76.63010359536868
+            },
+            "VOC2007": {
+              "correct": 2880,
+              "total": 3376,
+              "accuracy": 85.30805687203791
+            }
+          },
+          "elapsed_seconds": 2.6368887424468994
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 4,
+          "algorithm": "no_adapt",
+          "accuracy": 80.81834280920869,
+          "total_correct": 8671,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1413,
+              "total": 1415,
+              "accuracy": 99.85865724381625
+            },
+            "LabelMe": {
+              "correct": 1863,
+              "total": 2656,
+              "accuracy": 70.14307228915662
+            },
+            "SUN09": {
+              "correct": 2515,
+              "total": 3282,
+              "accuracy": 76.63010359536868
+            },
+            "VOC2007": {
+              "correct": 2880,
+              "total": 3376,
+              "accuracy": 85.30805687203791
+            }
+          },
+          "elapsed_seconds": 2.7284843921661377
+        }
+      ],
+      "latte": [
+        {
+          "dataset": "VLCS",
+          "seed": 0,
+          "algorithm": "latte",
+          "accuracy": 82.68244943610775,
+          "total_correct": 8871,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1415,
+              "total": 1415,
+              "accuracy": 100.0
+            },
+            "LabelMe": {
+              "correct": 1957,
+              "total": 2656,
+              "accuracy": 73.68222891566265
+            },
+            "SUN09": {
+              "correct": 2618,
+              "total": 3282,
+              "accuracy": 79.7684338817794
+            },
+            "VOC2007": {
+              "correct": 2881,
+              "total": 3376,
+              "accuracy": 85.33767772511848
+            }
+          },
+          "elapsed_seconds": 16.152554273605347
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 1,
+          "algorithm": "latte",
+          "accuracy": 82.43079504147637,
+          "total_correct": 8844,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1415,
+              "total": 1415,
+              "accuracy": 100.0
+            },
+            "LabelMe": {
+              "correct": 1912,
+              "total": 2656,
+              "accuracy": 71.98795180722891
+            },
+            "SUN09": {
+              "correct": 2646,
+              "total": 3282,
+              "accuracy": 80.62157221206581
+            },
+            "VOC2007": {
+              "correct": 2871,
+              "total": 3376,
+              "accuracy": 85.0414691943128
+            }
+          },
+          "elapsed_seconds": 15.927492141723633
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 2,
+          "algorithm": "latte",
+          "accuracy": 82.63584677043528,
+          "total_correct": 8866,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1414,
+              "total": 1415,
+              "accuracy": 99.92932862190813
+            },
+            "LabelMe": {
+              "correct": 1949,
+              "total": 2656,
+              "accuracy": 73.38102409638554
+            },
+            "SUN09": {
+              "correct": 2638,
+              "total": 3282,
+              "accuracy": 80.37781840341255
+            },
+            "VOC2007": {
+              "correct": 2865,
+              "total": 3376,
+              "accuracy": 84.86374407582939
+            }
+          },
+          "elapsed_seconds": 15.826905727386475
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 3,
+          "algorithm": "latte",
+          "accuracy": 82.53332090595582,
+          "total_correct": 8855,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1414,
+              "total": 1415,
+              "accuracy": 99.92932862190813
+            },
+            "LabelMe": {
+              "correct": 1942,
+              "total": 2656,
+              "accuracy": 73.11746987951807
+            },
+            "SUN09": {
+              "correct": 2620,
+              "total": 3282,
+              "accuracy": 79.82937233394271
+            },
+            "VOC2007": {
+              "correct": 2879,
+              "total": 3376,
+              "accuracy": 85.27843601895735
+            }
+          },
+          "elapsed_seconds": 16.082178831100464
+        },
+        {
+          "dataset": "VLCS",
+          "seed": 4,
+          "algorithm": "latte",
+          "accuracy": 82.49603877341784,
+          "total_correct": 8851,
+          "total_samples": 10729,
+          "client_count": 40,
+          "domain_metrics": {
+            "Caltech101": {
+              "correct": 1414,
+              "total": 1415,
+              "accuracy": 99.92932862190813
+            },
+            "LabelMe": {
+              "correct": 1929,
+              "total": 2656,
+              "accuracy": 72.62801204819277
+            },
+            "SUN09": {
+              "correct": 2637,
+              "total": 3282,
+              "accuracy": 80.3473491773309
+            },
+            "VOC2007": {
+              "correct": 2871,
+              "total": 3376,
+              "accuracy": 85.0414691943128
+            }
+          },
+          "elapsed_seconds": 15.883904218673706
+        }
+      ],
+      "no_adapt_mean": 80.81834280920869,
+      "no_adapt_std": 0.0,
+      "latte_mean": 82.5556901854786,
+      "latte_std": 0.10265288397620437,
+      "seed_gains": [
+        1.8641066268990585,
+        1.6124522322676853,
+        1.817503961226592,
+        1.7149780967471315,
+        1.6776959642091498
+      ],
+      "positive_seed_count": 5,
+      "anchor": {
+        "no_adapt": 80.83,
+        "latte": 82.57,
+        "no_adapt_abs_error": 0.011657190791311223,
+        "latte_abs_error": 0.014309814521396902
+      },
+      "sample_count_valid": true
+    }
+  },
+  "R1": {
+    "passed": true,
+    "details": {
+      "CIFAR100CFull": {
+        "latte_better_than_no_adapt": true,
+        "latte_anchor_within_1_point": true,
+        "no_adapt_anchor_within_1_point": true,
+        "positive_seed_count_at_least_4": true,
+        "full_sample_count": true
+      },
+      "VLCS": {
+        "latte_better_than_no_adapt": true,
+        "latte_anchor_within_1_point": true,
+        "no_adapt_anchor_within_1_point": true,
+        "positive_seed_count_at_least_4": true,
+        "full_sample_count": true
+      }
+    }
+  }
+}

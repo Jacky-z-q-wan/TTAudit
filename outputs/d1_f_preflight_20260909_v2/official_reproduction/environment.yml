@@ -1,0 +1,14 @@
+{
+  "conda_environment": "cc",
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "torch": "2.4.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "official_repo_commit_observed": "7c2e02501e56e86dc6fa9e78ec606201a9674c55",
+  "official_repo_status": [
+    "?? src/methods/__pycache__/",
+    "?? src/utils/__pycache__/"
+  ]
+}

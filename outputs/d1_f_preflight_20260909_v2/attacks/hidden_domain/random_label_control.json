@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 0,
+      "balanced_accuracy": 5.263157894736842
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 1,
+      "balanced_accuracy": 5.263157894736842
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 2,
+      "balanced_accuracy": 5.263157894736842
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 3,
+      "balanced_accuracy": 5.263157894736842
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 4,
+      "balanced_accuracy": 5.263157894736842
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 0,
+      "balanced_accuracy": 25.0
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 1,
+      "balanced_accuracy": 25.0
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 2,
+      "balanced_accuracy": 25.0
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 3,
+      "balanced_accuracy": 25.0
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 4,
+      "balanced_accuracy": 25.0
+    }
+  ],
+  "expected_random_balanced_accuracy": 25.0
+}

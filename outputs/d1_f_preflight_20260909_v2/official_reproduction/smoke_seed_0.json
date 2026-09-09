@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "seed": 0,
+  "datasets": {
+    "CIFAR100CFull": {
+      "no_adapt": {
+        "accuracy": 38.821666666666665,
+        "total_correct": 23293,
+        "total_samples": 60000,
+        "client_count": 57,
+        "elapsed_seconds": 16.513816118240356
+      },
+      "latte": {
+        "accuracy": 39.45,
+        "total_correct": 23670,
+        "total_samples": 60000,
+        "client_count": 57,
+        "elapsed_seconds": 110.08612298965454
+      }
+    },
+    "VLCS": {
+      "no_adapt": {
+        "accuracy": 80.81834280920869,
+        "total_correct": 8671,
+        "total_samples": 10729,
+        "client_count": 40,
+        "elapsed_seconds": 2.69801664352417
+      },
+      "latte": {
+        "accuracy": 82.68244943610775,
+        "total_correct": 8871,
+        "total_samples": 10729,
+        "client_count": 40,
+        "elapsed_seconds": 16.017319202423096
+      }
+    }
+  }
+}

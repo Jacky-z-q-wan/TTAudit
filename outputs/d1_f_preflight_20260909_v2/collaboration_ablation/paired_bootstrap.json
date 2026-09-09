@@ -1,0 +1,51 @@
+{
+  "CIFAR100CFull": {
+    "mean_gain_points": 0.3583552473997856,
+    "seed_gains_points": [
+      0.32834040405249804,
+      0.3300175736971154,
+      0.38501733518743736,
+      0.4767152789299415,
+      0.2716856451319357
+    ],
+    "positive_seed_count": 5,
+    "client_bootstrap_ci95_points": [
+      0.3006849218743024,
+      0.41601656942250254
+    ],
+    "client_bootstrap_lower_gt_zero": true
+  },
+  "VLCS": {
+    "mean_gain_points": 0.9614730890738469,
+    "seed_gains_points": [
+      1.0666021664885477,
+      0.9605634785458275,
+      0.9979128984562617,
+      0.7387523103284523,
+      1.0435345915501446
+    ],
+    "positive_seed_count": 5,
+    "client_bootstrap_ci95_points": [
+      0.7491013305961816,
+      1.1735314323535246
+    ],
+    "client_bootstrap_lower_gt_zero": true
+  },
+  "R2": {
+    "passed": true,
+    "at_least_one_dataset_gain_ge_0p5": true,
+    "other_dataset_decline_le_0p2": true,
+    "details": {
+      "CIFAR100CFull": {
+        "gain_ge_0p5": false,
+        "positive_seed_count_at_least_4": true,
+        "paired_client_ci_lower_gt_zero": true
+      },
+      "VLCS": {
+        "gain_ge_0p5": true,
+        "positive_seed_count_at_least_4": true,
+        "paired_client_ci_lower_gt_zero": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "VLCS",
+  "seed": 0,
+  "hook_off_accuracy": 82.68244943610775,
+  "hook_on_accuracy": 82.68244943610775,
+  "hook_off_total_samples": 10729,
+  "hook_on_total_samples": 10729,
+  "max_output_logit_error": 0.0,
+  "predictions_identical": true,
+  "sample_order_identical": true,
+  "message_count_matches_official_sync": true,
+  "R3": true
+}
