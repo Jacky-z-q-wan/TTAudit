@@ -1,0 +1,22 @@
+# A2 Supplement Summary: distribution_fingerprint
+
+- Scenario: `{'tag': 'distribution_fingerprint', 'seed': 1, 'corruption': 'gaussian_noise', 'severity': 5, 'split_type': 'iid', 'client_count': 4, 'rounds': 1, 'class_cap': 1, 'carrier': 'prototype', 'n_c': 1}`
+- Split type: `iid`
+- Carrier: `prototype`
+- Clients: `4`
+- Rounds: `1`
+- class_cap: `1`
+- Corruption: `gaussian_noise`
+
+## Utility
+- Source Top-1: 9.70
+- Local-EATA Top-1: 13.10
+- NoRaw-silent Top-1: 13.10
+- NoRaw Top-1: 13.00
+- Raw oracle Top-1: 50.15
+
+## Leakage
+- NoRaw payload-only member AUC*: 0.5071
+- NoRaw payload-only source-ID acc: 0.2500
+- NoRaw payload-only class presence BA: 0.5039
+- NoRaw full-transcript member AUC*: 0.5071
