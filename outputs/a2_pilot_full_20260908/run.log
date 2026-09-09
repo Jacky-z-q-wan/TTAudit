@@ -1,0 +1,7 @@
+2026-09-08 19:55:47,489 INFO root: Starting full A2 pilot suite
+2026-09-08 19:55:47,489 INFO root: Run dir: /home/chenyaofo/wanzhangqi/GuessWork2/outputs/a2_pilot_full_20260908
+2026-09-08 20:26:53,114 INFO root: Finished full A2 pilot suite
+2026-09-08 20:26:53,114 INFO root: {
+  "scenario_count": 63,
+  "run_dir": "/home/chenyaofo/wanzhangqi/GuessWork2/outputs/a2_pilot_full_20260908"
+}
