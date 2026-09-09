@@ -1,0 +1,6 @@
+{
+  "status": "not_run",
+  "stage": "preflight",
+  "reason": "CIFAR100CFull: author_full_cache_unavailable, official_full_raw_data_unavailable；VLCS: author_full_cache_unavailable, full_raw_feature_encoding_not_prepared",
+  "seed": 1
+}

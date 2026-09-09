@@ -1,0 +1,64 @@
+{
+  "CIFAR100CFull": {
+    "dataset": "CIFAR100CFull",
+    "expected": {
+      "classes": 100,
+      "environment_count": 19,
+      "clients_per_environment": 3,
+      "total_samples": 60000,
+      "per_environment_samples": 60000
+    },
+    "observed": {
+      "author_cache_candidates": [
+        {
+          "directory": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/latte_feature_cache/CIFAR100CFull",
+          "valid": false,
+          "error": "Missing meta_info.pkl in /home/chenyaofo/wanzhangqi/GuessWork2/datasets/latte_feature_cache/CIFAR100CFull"
+        }
+      ],
+      "raw_data_candidates": []
+    },
+    "valid": false,
+    "hard_failure_reasons": [
+      "author_full_cache_unavailable",
+      "official_full_raw_data_unavailable"
+    ]
+  },
+  "VLCS": {
+    "dataset": "VLCS",
+    "expected": {
+      "classes": 5,
+      "environment_count": 4,
+      "clients_per_environment": 10,
+      "total_samples": 10729,
+      "per_environment_samples": null
+    },
+    "observed": {
+      "author_cache_candidates": [
+        {
+          "directory": "/home/chenyaofo/wanzhangqi/GuessWork2/datasets/latte_feature_cache/VLCS",
+          "valid": false,
+          "error": "Missing meta_info.pkl in /home/chenyaofo/wanzhangqi/GuessWork2/datasets/latte_feature_cache/VLCS"
+        }
+      ],
+      "raw_data_candidates": [
+        {
+          "directory": "/home/chenyaofo/mr/datasets/domain_generalization/VLCS",
+          "exists": true,
+          "observed_domain_counts": {
+            "Caltech101": 424,
+            "LabelMe": 797,
+            "SUN09": 985,
+            "VOC2007": 1013
+          },
+          "observed_total": 3219
+        }
+      ]
+    },
+    "valid": false,
+    "hard_failure_reasons": [
+      "author_full_cache_unavailable",
+      "full_raw_feature_encoding_not_prepared"
+    ]
+  }
+}

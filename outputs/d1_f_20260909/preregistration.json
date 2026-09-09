@@ -1,0 +1,44 @@
+{
+  "protocol": "D1-F",
+  "date": "2026-09-09",
+  "official_repository": "https://github.com/baowenxuan/Latte.git",
+  "official_commit": "7c2e02501e56e86dc6fa9e78ec606201a9674c55",
+  "model": "ViT-B/16",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "no_truncation": true,
+  "datasets": {
+    "CIFAR100CFull": {
+      "classes": 100,
+      "environments": 19,
+      "clients_per_environment": 3,
+      "total_samples": 60000,
+      "per_environment_samples": 60000,
+      "anchor_no_adapt": 38.91,
+      "anchor_latte": 39.51
+    },
+    "VLCS": {
+      "classes": 5,
+      "environments": 4,
+      "clients_per_environment": 10,
+      "total_samples": 10729,
+      "per_environment_samples": null,
+      "anchor_no_adapt": 80.83,
+      "anchor_latte": 82.57
+    }
+  },
+  "gates": {
+    "R1": "official complete reproduction",
+    "R2": "cross-client utility gain",
+    "R3": "passive hook equivalence",
+    "G1": "R1 and R2 and R3",
+    "G2": "payload-only unseen-client fingerprint threshold",
+    "G3": "isolation and leakage controls",
+    "G4": "external validity"
+  }
+}
