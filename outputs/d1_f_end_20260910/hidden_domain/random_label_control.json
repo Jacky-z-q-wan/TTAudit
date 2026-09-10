@@ -1,0 +1,1137 @@
+[
+  {
+    "status": "completed",
+    "dataset": "CIFAR100CFull",
+    "seed": 0,
+    "task": "CIFAR_family",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 10.0,
+    "train_clients": [
+      "brightness_1",
+      "contrast_0",
+      "defocus_blur_1",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_1",
+      "jpeg_compression_1",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_0",
+      "shot_noise_2",
+      "snow_2",
+      "spatter_1",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "validation_clients": [
+      "brightness_0",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_2",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_1",
+      "saturate_2",
+      "shot_noise_0",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_0",
+      "zoom_blur_1"
+    ],
+    "test_clients": [
+      "brightness_2",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_0",
+      "motion_blur_2",
+      "pixelate_2",
+      "saturate_1",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_0"
+    ],
+    "train_message_count": 152,
+    "validation_message_count": 152,
+    "test_message_count": 152,
+    "balanced_accuracy": 21.5625,
+    "macro_f1": 19.209246769330363,
+    "confusion_matrix": [
+      [
+        2,
+        13,
+        5,
+        12
+      ],
+      [
+        5,
+        5,
+        2,
+        28
+      ],
+      [
+        2,
+        12,
+        6,
+        20
+      ],
+      [
+        3,
+        11,
+        5,
+        21
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      17.763157894736842,
+      26.973684210526315
+    ],
+    "feature_matrix_shapes": [
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "CIFAR100CFull",
+    "seed": 1,
+    "task": "CIFAR_family",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 10.0,
+    "train_clients": [
+      "brightness_1",
+      "contrast_2",
+      "defocus_blur_1",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_2",
+      "gaussian_blur_0",
+      "gaussian_noise_2",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_2",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "validation_clients": [
+      "brightness_2",
+      "contrast_0",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_0",
+      "shot_noise_0",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_1"
+    ],
+    "test_clients": [
+      "brightness_0",
+      "contrast_1",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_1",
+      "gaussian_blur_2",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_2",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_1",
+      "zoom_blur_2"
+    ],
+    "train_message_count": 152,
+    "validation_message_count": 152,
+    "test_message_count": 152,
+    "balanced_accuracy": 26.875,
+    "macro_f1": 25.95476635421261,
+    "confusion_matrix": [
+      [
+        8,
+        9,
+        5,
+        10
+      ],
+      [
+        6,
+        18,
+        7,
+        9
+      ],
+      [
+        13,
+        16,
+        7,
+        4
+      ],
+      [
+        8,
+        14,
+        10,
+        8
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      19.736842105263158,
+      35.526315789473685
+    ],
+    "feature_matrix_shapes": [
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "CIFAR100CFull",
+    "seed": 2,
+    "task": "CIFAR_family",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "train_clients": [
+      "brightness_1",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_2",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "validation_clients": [
+      "brightness_0",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_0",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_1"
+    ],
+    "test_clients": [
+      "brightness_2",
+      "contrast_0",
+      "defocus_blur_1",
+      "elastic_transform_1",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_2",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "train_message_count": 152,
+    "validation_message_count": 152,
+    "test_message_count": 152,
+    "balanced_accuracy": 20.0,
+    "macro_f1": 12.273730684326711,
+    "confusion_matrix": [
+      [
+        0,
+        9,
+        1,
+        22
+      ],
+      [
+        0,
+        5,
+        4,
+        31
+      ],
+      [
+        0,
+        9,
+        0,
+        31
+      ],
+      [
+        0,
+        12,
+        1,
+        27
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      15.131578947368421,
+      26.31578947368421
+    ],
+    "feature_matrix_shapes": [
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "CIFAR100CFull",
+    "seed": 3,
+    "task": "CIFAR_family",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "train_clients": [
+      "brightness_0",
+      "contrast_0",
+      "defocus_blur_0",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_0",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_1",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_1"
+    ],
+    "validation_clients": [
+      "brightness_2",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_1",
+      "gaussian_noise_1",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_1",
+      "saturate_0",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "test_clients": [
+      "brightness_1",
+      "contrast_2",
+      "defocus_blur_1",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_1",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_2",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_2",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "train_message_count": 152,
+    "validation_message_count": 152,
+    "test_message_count": 152,
+    "balanced_accuracy": 25.0,
+    "macro_f1": 17.15856715452414,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        26,
+        6
+      ],
+      [
+        0,
+        0,
+        31,
+        9
+      ],
+      [
+        0,
+        0,
+        26,
+        14
+      ],
+      [
+        0,
+        0,
+        26,
+        14
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      21.710526315789476,
+      30.92105263157895
+    ],
+    "feature_matrix_shapes": [
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "CIFAR100CFull",
+    "seed": 4,
+    "task": "CIFAR_family",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "train_clients": [
+      "brightness_0",
+      "contrast_0",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_0",
+      "frost_0",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_2",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_1",
+      "shot_noise_1",
+      "snow_0",
+      "spatter_2",
+      "speckle_noise_2",
+      "zoom_blur_1"
+    ],
+    "validation_clients": [
+      "brightness_1",
+      "contrast_1",
+      "defocus_blur_1",
+      "elastic_transform_2",
+      "fog_2",
+      "frost_2",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_1",
+      "jpeg_compression_1",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_1",
+      "speckle_noise_1",
+      "zoom_blur_0"
+    ],
+    "test_clients": [
+      "brightness_2",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_1",
+      "impulse_noise_0",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_0",
+      "shot_noise_2",
+      "snow_1",
+      "spatter_0",
+      "speckle_noise_0",
+      "zoom_blur_2"
+    ],
+    "train_message_count": 152,
+    "validation_message_count": 152,
+    "test_message_count": 152,
+    "balanced_accuracy": 25.78125,
+    "macro_f1": 13.588826200632997,
+    "confusion_matrix": [
+      [
+        29,
+        0,
+        2,
+        1
+      ],
+      [
+        36,
+        0,
+        3,
+        1
+      ],
+      [
+        36,
+        0,
+        4,
+        0
+      ],
+      [
+        36,
+        0,
+        3,
+        1
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      14.473684210526317,
+      30.263157894736842
+    ],
+    "feature_matrix_shapes": [
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ],
+      [
+        152,
+        1800
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "VLCS",
+    "seed": 0,
+    "task": "VLCS",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "train_clients": [
+      "Caltech101_0",
+      "Caltech101_1",
+      "Caltech101_3",
+      "Caltech101_5",
+      "Caltech101_6",
+      "Caltech101_8",
+      "LabelMe_2",
+      "LabelMe_3",
+      "LabelMe_4",
+      "LabelMe_7",
+      "LabelMe_8",
+      "LabelMe_9",
+      "SUN09_1",
+      "SUN09_2",
+      "SUN09_5",
+      "SUN09_6",
+      "SUN09_7",
+      "SUN09_9",
+      "VOC2007_0",
+      "VOC2007_3",
+      "VOC2007_4",
+      "VOC2007_6",
+      "VOC2007_7",
+      "VOC2007_9"
+    ],
+    "validation_clients": [
+      "Caltech101_4",
+      "Caltech101_7",
+      "LabelMe_5",
+      "LabelMe_6",
+      "SUN09_0",
+      "SUN09_4",
+      "VOC2007_2",
+      "VOC2007_8"
+    ],
+    "test_clients": [
+      "Caltech101_2",
+      "Caltech101_9",
+      "LabelMe_0",
+      "LabelMe_1",
+      "SUN09_3",
+      "SUN09_8",
+      "VOC2007_1",
+      "VOC2007_5"
+    ],
+    "train_message_count": 192,
+    "validation_message_count": 64,
+    "test_message_count": 64,
+    "balanced_accuracy": 28.125,
+    "macro_f1": 24.799468952392488,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        4
+      ],
+      [
+        9,
+        3,
+        1,
+        3
+      ],
+      [
+        8,
+        2,
+        2,
+        4
+      ],
+      [
+        10,
+        1,
+        3,
+        2
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      18.75,
+      37.5
+    ],
+    "feature_matrix_shapes": [
+      [
+        192,
+        90
+      ],
+      [
+        64,
+        90
+      ],
+      [
+        64,
+        90
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "VLCS",
+    "seed": 1,
+    "task": "VLCS",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 0.1,
+    "train_clients": [
+      "Caltech101_0",
+      "Caltech101_1",
+      "Caltech101_3",
+      "Caltech101_6",
+      "Caltech101_8",
+      "Caltech101_9",
+      "LabelMe_0",
+      "LabelMe_1",
+      "LabelMe_3",
+      "LabelMe_4",
+      "LabelMe_8",
+      "LabelMe_9",
+      "SUN09_0",
+      "SUN09_1",
+      "SUN09_4",
+      "SUN09_6",
+      "SUN09_7",
+      "SUN09_8",
+      "VOC2007_0",
+      "VOC2007_2",
+      "VOC2007_3",
+      "VOC2007_4",
+      "VOC2007_5",
+      "VOC2007_9"
+    ],
+    "validation_clients": [
+      "Caltech101_5",
+      "Caltech101_7",
+      "LabelMe_2",
+      "LabelMe_6",
+      "SUN09_3",
+      "SUN09_9",
+      "VOC2007_6",
+      "VOC2007_8"
+    ],
+    "test_clients": [
+      "Caltech101_2",
+      "Caltech101_4",
+      "LabelMe_5",
+      "LabelMe_7",
+      "SUN09_2",
+      "SUN09_5",
+      "VOC2007_1",
+      "VOC2007_7"
+    ],
+    "train_message_count": 192,
+    "validation_message_count": 64,
+    "test_message_count": 64,
+    "balanced_accuracy": 18.75,
+    "macro_f1": 18.947444080271406,
+    "confusion_matrix": [
+      [
+        4,
+        4,
+        5,
+        3
+      ],
+      [
+        3,
+        3,
+        4,
+        6
+      ],
+      [
+        5,
+        3,
+        2,
+        6
+      ],
+      [
+        2,
+        5,
+        6,
+        3
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      9.375,
+      29.6875
+    ],
+    "feature_matrix_shapes": [
+      [
+        192,
+        90
+      ],
+      [
+        64,
+        90
+      ],
+      [
+        64,
+        90
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "VLCS",
+    "seed": 2,
+    "task": "VLCS",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "train_clients": [
+      "Caltech101_1",
+      "Caltech101_3",
+      "Caltech101_5",
+      "Caltech101_6",
+      "Caltech101_7",
+      "Caltech101_9",
+      "LabelMe_0",
+      "LabelMe_1",
+      "LabelMe_4",
+      "LabelMe_6",
+      "LabelMe_8",
+      "LabelMe_9",
+      "SUN09_1",
+      "SUN09_2",
+      "SUN09_5",
+      "SUN09_7",
+      "SUN09_8",
+      "SUN09_9",
+      "VOC2007_0",
+      "VOC2007_1",
+      "VOC2007_3",
+      "VOC2007_5",
+      "VOC2007_6",
+      "VOC2007_7"
+    ],
+    "validation_clients": [
+      "Caltech101_0",
+      "Caltech101_8",
+      "LabelMe_2",
+      "LabelMe_7",
+      "SUN09_3",
+      "SUN09_4",
+      "VOC2007_8",
+      "VOC2007_9"
+    ],
+    "test_clients": [
+      "Caltech101_2",
+      "Caltech101_4",
+      "LabelMe_3",
+      "LabelMe_5",
+      "SUN09_0",
+      "SUN09_6",
+      "VOC2007_2",
+      "VOC2007_4"
+    ],
+    "train_message_count": 192,
+    "validation_message_count": 64,
+    "test_message_count": 64,
+    "balanced_accuracy": 21.875,
+    "macro_f1": 20.574521890311363,
+    "confusion_matrix": [
+      [
+        5,
+        3,
+        8,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        1
+      ],
+      [
+        5,
+        7,
+        3,
+        1
+      ],
+      [
+        5,
+        5,
+        5,
+        1
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      12.5,
+      31.25
+    ],
+    "feature_matrix_shapes": [
+      [
+        192,
+        90
+      ],
+      [
+        64,
+        90
+      ],
+      [
+        64,
+        90
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "VLCS",
+    "seed": 3,
+    "task": "VLCS",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 0.1,
+    "train_clients": [
+      "Caltech101_0",
+      "Caltech101_3",
+      "Caltech101_4",
+      "Caltech101_5",
+      "Caltech101_6",
+      "Caltech101_9",
+      "LabelMe_0",
+      "LabelMe_1",
+      "LabelMe_4",
+      "LabelMe_6",
+      "LabelMe_7",
+      "LabelMe_8",
+      "SUN09_0",
+      "SUN09_1",
+      "SUN09_4",
+      "SUN09_5",
+      "SUN09_7",
+      "SUN09_9",
+      "VOC2007_1",
+      "VOC2007_4",
+      "VOC2007_5",
+      "VOC2007_6",
+      "VOC2007_8",
+      "VOC2007_9"
+    ],
+    "validation_clients": [
+      "Caltech101_2",
+      "Caltech101_8",
+      "LabelMe_5",
+      "LabelMe_9",
+      "SUN09_3",
+      "SUN09_8",
+      "VOC2007_0",
+      "VOC2007_3"
+    ],
+    "test_clients": [
+      "Caltech101_1",
+      "Caltech101_7",
+      "LabelMe_2",
+      "LabelMe_3",
+      "SUN09_2",
+      "SUN09_6",
+      "VOC2007_2",
+      "VOC2007_7"
+    ],
+    "train_message_count": 192,
+    "validation_message_count": 64,
+    "test_message_count": 64,
+    "balanced_accuracy": 20.3125,
+    "macro_f1": 16.666666666666668,
+    "confusion_matrix": [
+      [
+        7,
+        3,
+        6,
+        0
+      ],
+      [
+        7,
+        4,
+        5,
+        0
+      ],
+      [
+        9,
+        5,
+        2,
+        0
+      ],
+      [
+        9,
+        4,
+        3,
+        0
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      15.625,
+      25.0
+    ],
+    "feature_matrix_shapes": [
+      [
+        192,
+        90
+      ],
+      [
+        64,
+        90
+      ],
+      [
+        64,
+        90
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  },
+  {
+    "status": "completed",
+    "dataset": "VLCS",
+    "seed": 4,
+    "task": "VLCS",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 0.1,
+    "train_clients": [
+      "Caltech101_0",
+      "Caltech101_2",
+      "Caltech101_3",
+      "Caltech101_4",
+      "Caltech101_5",
+      "Caltech101_7",
+      "LabelMe_0",
+      "LabelMe_3",
+      "LabelMe_4",
+      "LabelMe_5",
+      "LabelMe_7",
+      "LabelMe_8",
+      "SUN09_1",
+      "SUN09_2",
+      "SUN09_5",
+      "SUN09_6",
+      "SUN09_7",
+      "SUN09_8",
+      "VOC2007_1",
+      "VOC2007_2",
+      "VOC2007_5",
+      "VOC2007_6",
+      "VOC2007_7",
+      "VOC2007_8"
+    ],
+    "validation_clients": [
+      "Caltech101_8",
+      "Caltech101_9",
+      "LabelMe_1",
+      "LabelMe_6",
+      "SUN09_4",
+      "SUN09_9",
+      "VOC2007_0",
+      "VOC2007_9"
+    ],
+    "test_clients": [
+      "Caltech101_1",
+      "Caltech101_6",
+      "LabelMe_2",
+      "LabelMe_9",
+      "SUN09_0",
+      "SUN09_3",
+      "VOC2007_3",
+      "VOC2007_4"
+    ],
+    "train_message_count": 192,
+    "validation_message_count": 64,
+    "test_message_count": 64,
+    "balanced_accuracy": 34.375,
+    "macro_f1": 31.745675549322115,
+    "confusion_matrix": [
+      [
+        11,
+        2,
+        2,
+        1
+      ],
+      [
+        8,
+        5,
+        2,
+        1
+      ],
+      [
+        8,
+        4,
+        2,
+        2
+      ],
+      [
+        7,
+        4,
+        1,
+        4
+      ]
+    ],
+    "client_bootstrap_ci95_accuracy": [
+      20.3125,
+      46.875
+    ],
+    "feature_matrix_shapes": [
+      [
+        192,
+        90
+      ],
+      [
+        64,
+        90
+      ],
+      [
+        64,
+        90
+      ]
+    ],
+    "expected_random_balanced_accuracy": 25.0
+  }
+]

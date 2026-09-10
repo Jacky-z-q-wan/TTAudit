@@ -1,0 +1,105 @@
+{
+  "runs": [
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 0,
+      "accuracy": 39.45,
+      "total_samples": 60000,
+      "client_count": 57,
+      "captured_message_count": 1368,
+      "total_upload_count": 59964,
+      "sync_round_count": 1052
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 1,
+      "accuracy": 39.45,
+      "total_samples": 60000,
+      "client_count": 57,
+      "captured_message_count": 1368,
+      "total_upload_count": 59964,
+      "sync_round_count": 1052
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 2,
+      "accuracy": 39.645,
+      "total_samples": 60000,
+      "client_count": 57,
+      "captured_message_count": 1368,
+      "total_upload_count": 59964,
+      "sync_round_count": 1052
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 3,
+      "accuracy": 39.415,
+      "total_samples": 60000,
+      "client_count": 57,
+      "captured_message_count": 1368,
+      "total_upload_count": 59964,
+      "sync_round_count": 1052
+    },
+    {
+      "dataset": "CIFAR100CFull",
+      "seed": 4,
+      "accuracy": 39.318333333333335,
+      "total_samples": 60000,
+      "client_count": 57,
+      "captured_message_count": 1368,
+      "total_upload_count": 59964,
+      "sync_round_count": 1052
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 0,
+      "accuracy": 82.68244943610775,
+      "total_samples": 10729,
+      "client_count": 40,
+      "captured_message_count": 960,
+      "total_upload_count": 13480,
+      "sync_round_count": 337
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 1,
+      "accuracy": 82.43079504147637,
+      "total_samples": 10729,
+      "client_count": 40,
+      "captured_message_count": 960,
+      "total_upload_count": 13480,
+      "sync_round_count": 337
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 2,
+      "accuracy": 82.63584677043528,
+      "total_samples": 10729,
+      "client_count": 40,
+      "captured_message_count": 960,
+      "total_upload_count": 13480,
+      "sync_round_count": 337
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 3,
+      "accuracy": 82.53332090595582,
+      "total_samples": 10729,
+      "client_count": 40,
+      "captured_message_count": 960,
+      "total_upload_count": 13480,
+      "sync_round_count": 337
+    },
+    {
+      "dataset": "VLCS",
+      "seed": 4,
+      "accuracy": 82.49603877341784,
+      "total_samples": 10729,
+      "client_count": 40,
+      "captured_message_count": 960,
+      "total_upload_count": 13480,
+      "sync_round_count": 337
+    }
+  ],
+  "status": "completed"
+}

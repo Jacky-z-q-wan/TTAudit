@@ -1,0 +1,622 @@
+[
+  {
+    "dataset": "VLCS",
+    "seed": 0,
+    "train": [
+      "Caltech101_0",
+      "Caltech101_3",
+      "Caltech101_5",
+      "Caltech101_6",
+      "Caltech101_1",
+      "Caltech101_8",
+      "LabelMe_8",
+      "LabelMe_2",
+      "LabelMe_9",
+      "LabelMe_7",
+      "LabelMe_4",
+      "LabelMe_3",
+      "SUN09_7",
+      "SUN09_1",
+      "SUN09_6",
+      "SUN09_9",
+      "SUN09_5",
+      "SUN09_2",
+      "VOC2007_3",
+      "VOC2007_0",
+      "VOC2007_9",
+      "VOC2007_4",
+      "VOC2007_6",
+      "VOC2007_7"
+    ],
+    "validation": [
+      "Caltech101_4",
+      "Caltech101_7",
+      "LabelMe_5",
+      "LabelMe_6",
+      "SUN09_4",
+      "SUN09_0",
+      "VOC2007_2",
+      "VOC2007_8"
+    ],
+    "test": [
+      "Caltech101_9",
+      "Caltech101_2",
+      "LabelMe_1",
+      "LabelMe_0",
+      "SUN09_8",
+      "SUN09_3",
+      "VOC2007_1",
+      "VOC2007_5"
+    ],
+    "groups": {
+      "Caltech101": {
+        "train": [
+          "Caltech101_0",
+          "Caltech101_3",
+          "Caltech101_5",
+          "Caltech101_6",
+          "Caltech101_1",
+          "Caltech101_8"
+        ],
+        "validation": [
+          "Caltech101_4",
+          "Caltech101_7"
+        ],
+        "test": [
+          "Caltech101_9",
+          "Caltech101_2"
+        ]
+      },
+      "LabelMe": {
+        "train": [
+          "LabelMe_8",
+          "LabelMe_2",
+          "LabelMe_9",
+          "LabelMe_7",
+          "LabelMe_4",
+          "LabelMe_3"
+        ],
+        "validation": [
+          "LabelMe_5",
+          "LabelMe_6"
+        ],
+        "test": [
+          "LabelMe_1",
+          "LabelMe_0"
+        ]
+      },
+      "SUN09": {
+        "train": [
+          "SUN09_7",
+          "SUN09_1",
+          "SUN09_6",
+          "SUN09_9",
+          "SUN09_5",
+          "SUN09_2"
+        ],
+        "validation": [
+          "SUN09_4",
+          "SUN09_0"
+        ],
+        "test": [
+          "SUN09_8",
+          "SUN09_3"
+        ]
+      },
+      "VOC2007": {
+        "train": [
+          "VOC2007_3",
+          "VOC2007_0",
+          "VOC2007_9",
+          "VOC2007_4",
+          "VOC2007_6",
+          "VOC2007_7"
+        ],
+        "validation": [
+          "VOC2007_2",
+          "VOC2007_8"
+        ],
+        "test": [
+          "VOC2007_1",
+          "VOC2007_5"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "VLCS",
+    "seed": 1,
+    "train": [
+      "Caltech101_1",
+      "Caltech101_8",
+      "Caltech101_3",
+      "Caltech101_6",
+      "Caltech101_9",
+      "Caltech101_0",
+      "LabelMe_3",
+      "LabelMe_0",
+      "LabelMe_4",
+      "LabelMe_9",
+      "LabelMe_8",
+      "LabelMe_1",
+      "SUN09_4",
+      "SUN09_7",
+      "SUN09_1",
+      "SUN09_0",
+      "SUN09_8",
+      "SUN09_6",
+      "VOC2007_5",
+      "VOC2007_4",
+      "VOC2007_2",
+      "VOC2007_9",
+      "VOC2007_3",
+      "VOC2007_0"
+    ],
+    "validation": [
+      "Caltech101_5",
+      "Caltech101_7",
+      "LabelMe_2",
+      "LabelMe_6",
+      "SUN09_9",
+      "SUN09_3",
+      "VOC2007_8",
+      "VOC2007_6"
+    ],
+    "test": [
+      "Caltech101_2",
+      "Caltech101_4",
+      "LabelMe_5",
+      "LabelMe_7",
+      "SUN09_2",
+      "SUN09_5",
+      "VOC2007_1",
+      "VOC2007_7"
+    ],
+    "groups": {
+      "Caltech101": {
+        "train": [
+          "Caltech101_1",
+          "Caltech101_8",
+          "Caltech101_3",
+          "Caltech101_6",
+          "Caltech101_9",
+          "Caltech101_0"
+        ],
+        "validation": [
+          "Caltech101_5",
+          "Caltech101_7"
+        ],
+        "test": [
+          "Caltech101_2",
+          "Caltech101_4"
+        ]
+      },
+      "LabelMe": {
+        "train": [
+          "LabelMe_3",
+          "LabelMe_0",
+          "LabelMe_4",
+          "LabelMe_9",
+          "LabelMe_8",
+          "LabelMe_1"
+        ],
+        "validation": [
+          "LabelMe_2",
+          "LabelMe_6"
+        ],
+        "test": [
+          "LabelMe_5",
+          "LabelMe_7"
+        ]
+      },
+      "SUN09": {
+        "train": [
+          "SUN09_4",
+          "SUN09_7",
+          "SUN09_1",
+          "SUN09_0",
+          "SUN09_8",
+          "SUN09_6"
+        ],
+        "validation": [
+          "SUN09_9",
+          "SUN09_3"
+        ],
+        "test": [
+          "SUN09_2",
+          "SUN09_5"
+        ]
+      },
+      "VOC2007": {
+        "train": [
+          "VOC2007_5",
+          "VOC2007_4",
+          "VOC2007_2",
+          "VOC2007_9",
+          "VOC2007_3",
+          "VOC2007_0"
+        ],
+        "validation": [
+          "VOC2007_8",
+          "VOC2007_6"
+        ],
+        "test": [
+          "VOC2007_1",
+          "VOC2007_7"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "VLCS",
+    "seed": 2,
+    "train": [
+      "Caltech101_3",
+      "Caltech101_9",
+      "Caltech101_7",
+      "Caltech101_1",
+      "Caltech101_6",
+      "Caltech101_5",
+      "LabelMe_6",
+      "LabelMe_9",
+      "LabelMe_1",
+      "LabelMe_4",
+      "LabelMe_8",
+      "LabelMe_0",
+      "SUN09_5",
+      "SUN09_8",
+      "SUN09_2",
+      "SUN09_7",
+      "SUN09_9",
+      "SUN09_1",
+      "VOC2007_0",
+      "VOC2007_7",
+      "VOC2007_5",
+      "VOC2007_3",
+      "VOC2007_6",
+      "VOC2007_1"
+    ],
+    "validation": [
+      "Caltech101_8",
+      "Caltech101_0",
+      "LabelMe_2",
+      "LabelMe_7",
+      "SUN09_4",
+      "SUN09_3",
+      "VOC2007_8",
+      "VOC2007_9"
+    ],
+    "test": [
+      "Caltech101_4",
+      "Caltech101_2",
+      "LabelMe_5",
+      "LabelMe_3",
+      "SUN09_6",
+      "SUN09_0",
+      "VOC2007_2",
+      "VOC2007_4"
+    ],
+    "groups": {
+      "Caltech101": {
+        "train": [
+          "Caltech101_3",
+          "Caltech101_9",
+          "Caltech101_7",
+          "Caltech101_1",
+          "Caltech101_6",
+          "Caltech101_5"
+        ],
+        "validation": [
+          "Caltech101_8",
+          "Caltech101_0"
+        ],
+        "test": [
+          "Caltech101_4",
+          "Caltech101_2"
+        ]
+      },
+      "LabelMe": {
+        "train": [
+          "LabelMe_6",
+          "LabelMe_9",
+          "LabelMe_1",
+          "LabelMe_4",
+          "LabelMe_8",
+          "LabelMe_0"
+        ],
+        "validation": [
+          "LabelMe_2",
+          "LabelMe_7"
+        ],
+        "test": [
+          "LabelMe_5",
+          "LabelMe_3"
+        ]
+      },
+      "SUN09": {
+        "train": [
+          "SUN09_5",
+          "SUN09_8",
+          "SUN09_2",
+          "SUN09_7",
+          "SUN09_9",
+          "SUN09_1"
+        ],
+        "validation": [
+          "SUN09_4",
+          "SUN09_3"
+        ],
+        "test": [
+          "SUN09_6",
+          "SUN09_0"
+        ]
+      },
+      "VOC2007": {
+        "train": [
+          "VOC2007_0",
+          "VOC2007_7",
+          "VOC2007_5",
+          "VOC2007_3",
+          "VOC2007_6",
+          "VOC2007_1"
+        ],
+        "validation": [
+          "VOC2007_8",
+          "VOC2007_9"
+        ],
+        "test": [
+          "VOC2007_2",
+          "VOC2007_4"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "VLCS",
+    "seed": 3,
+    "train": [
+      "Caltech101_6",
+      "Caltech101_4",
+      "Caltech101_0",
+      "Caltech101_3",
+      "Caltech101_9",
+      "Caltech101_5",
+      "LabelMe_0",
+      "LabelMe_4",
+      "LabelMe_6",
+      "LabelMe_8",
+      "LabelMe_1",
+      "LabelMe_7",
+      "SUN09_4",
+      "SUN09_1",
+      "SUN09_0",
+      "SUN09_7",
+      "SUN09_9",
+      "SUN09_5",
+      "VOC2007_5",
+      "VOC2007_6",
+      "VOC2007_4",
+      "VOC2007_8",
+      "VOC2007_1",
+      "VOC2007_9"
+    ],
+    "validation": [
+      "Caltech101_2",
+      "Caltech101_8",
+      "LabelMe_5",
+      "LabelMe_9",
+      "SUN09_3",
+      "SUN09_8",
+      "VOC2007_3",
+      "VOC2007_0"
+    ],
+    "test": [
+      "Caltech101_7",
+      "Caltech101_1",
+      "LabelMe_3",
+      "LabelMe_2",
+      "SUN09_6",
+      "SUN09_2",
+      "VOC2007_2",
+      "VOC2007_7"
+    ],
+    "groups": {
+      "Caltech101": {
+        "train": [
+          "Caltech101_6",
+          "Caltech101_4",
+          "Caltech101_0",
+          "Caltech101_3",
+          "Caltech101_9",
+          "Caltech101_5"
+        ],
+        "validation": [
+          "Caltech101_2",
+          "Caltech101_8"
+        ],
+        "test": [
+          "Caltech101_7",
+          "Caltech101_1"
+        ]
+      },
+      "LabelMe": {
+        "train": [
+          "LabelMe_0",
+          "LabelMe_4",
+          "LabelMe_6",
+          "LabelMe_8",
+          "LabelMe_1",
+          "LabelMe_7"
+        ],
+        "validation": [
+          "LabelMe_5",
+          "LabelMe_9"
+        ],
+        "test": [
+          "LabelMe_3",
+          "LabelMe_2"
+        ]
+      },
+      "SUN09": {
+        "train": [
+          "SUN09_4",
+          "SUN09_1",
+          "SUN09_0",
+          "SUN09_7",
+          "SUN09_9",
+          "SUN09_5"
+        ],
+        "validation": [
+          "SUN09_3",
+          "SUN09_8"
+        ],
+        "test": [
+          "SUN09_6",
+          "SUN09_2"
+        ]
+      },
+      "VOC2007": {
+        "train": [
+          "VOC2007_5",
+          "VOC2007_6",
+          "VOC2007_4",
+          "VOC2007_8",
+          "VOC2007_1",
+          "VOC2007_9"
+        ],
+        "validation": [
+          "VOC2007_3",
+          "VOC2007_0"
+        ],
+        "test": [
+          "VOC2007_2",
+          "VOC2007_7"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "VLCS",
+    "seed": 4,
+    "train": [
+      "Caltech101_3",
+      "Caltech101_5",
+      "Caltech101_2",
+      "Caltech101_0",
+      "Caltech101_7",
+      "Caltech101_4",
+      "LabelMe_3",
+      "LabelMe_4",
+      "LabelMe_0",
+      "LabelMe_5",
+      "LabelMe_7",
+      "LabelMe_8",
+      "SUN09_5",
+      "SUN09_2",
+      "SUN09_7",
+      "SUN09_6",
+      "SUN09_8",
+      "SUN09_1",
+      "VOC2007_5",
+      "VOC2007_6",
+      "VOC2007_2",
+      "VOC2007_7",
+      "VOC2007_8",
+      "VOC2007_1"
+    ],
+    "validation": [
+      "Caltech101_8",
+      "Caltech101_9",
+      "LabelMe_6",
+      "LabelMe_1",
+      "SUN09_4",
+      "SUN09_9",
+      "VOC2007_0",
+      "VOC2007_9"
+    ],
+    "test": [
+      "Caltech101_1",
+      "Caltech101_6",
+      "LabelMe_2",
+      "LabelMe_9",
+      "SUN09_0",
+      "SUN09_3",
+      "VOC2007_3",
+      "VOC2007_4"
+    ],
+    "groups": {
+      "Caltech101": {
+        "train": [
+          "Caltech101_3",
+          "Caltech101_5",
+          "Caltech101_2",
+          "Caltech101_0",
+          "Caltech101_7",
+          "Caltech101_4"
+        ],
+        "validation": [
+          "Caltech101_8",
+          "Caltech101_9"
+        ],
+        "test": [
+          "Caltech101_1",
+          "Caltech101_6"
+        ]
+      },
+      "LabelMe": {
+        "train": [
+          "LabelMe_3",
+          "LabelMe_4",
+          "LabelMe_0",
+          "LabelMe_5",
+          "LabelMe_7",
+          "LabelMe_8"
+        ],
+        "validation": [
+          "LabelMe_6",
+          "LabelMe_1"
+        ],
+        "test": [
+          "LabelMe_2",
+          "LabelMe_9"
+        ]
+      },
+      "SUN09": {
+        "train": [
+          "SUN09_5",
+          "SUN09_2",
+          "SUN09_7",
+          "SUN09_6",
+          "SUN09_8",
+          "SUN09_1"
+        ],
+        "validation": [
+          "SUN09_4",
+          "SUN09_9"
+        ],
+        "test": [
+          "SUN09_0",
+          "SUN09_3"
+        ]
+      },
+      "VOC2007": {
+        "train": [
+          "VOC2007_5",
+          "VOC2007_6",
+          "VOC2007_2",
+          "VOC2007_7",
+          "VOC2007_8",
+          "VOC2007_1"
+        ],
+        "validation": [
+          "VOC2007_0",
+          "VOC2007_9"
+        ],
+        "test": [
+          "VOC2007_3",
+          "VOC2007_4"
+        ]
+      }
+    }
+  }
+]

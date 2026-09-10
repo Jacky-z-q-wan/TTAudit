@@ -1,0 +1,1392 @@
+[
+  {
+    "dataset": "CIFAR100CFull",
+    "seed": 0,
+    "train": [
+      "brightness_1",
+      "contrast_0",
+      "defocus_blur_1",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_1",
+      "jpeg_compression_1",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_0",
+      "shot_noise_2",
+      "snow_2",
+      "spatter_1",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "validation": [
+      "brightness_0",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_2",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_1",
+      "saturate_2",
+      "shot_noise_0",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_0",
+      "zoom_blur_1"
+    ],
+    "test": [
+      "brightness_2",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_0",
+      "motion_blur_2",
+      "pixelate_2",
+      "saturate_1",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_0"
+    ],
+    "groups": {
+      "brightness": {
+        "train": [
+          "brightness_1"
+        ],
+        "validation": [
+          "brightness_0"
+        ],
+        "test": [
+          "brightness_2"
+        ]
+      },
+      "contrast": {
+        "train": [
+          "contrast_0"
+        ],
+        "validation": [
+          "contrast_1"
+        ],
+        "test": [
+          "contrast_2"
+        ]
+      },
+      "defocus_blur": {
+        "train": [
+          "defocus_blur_1"
+        ],
+        "validation": [
+          "defocus_blur_2"
+        ],
+        "test": [
+          "defocus_blur_0"
+        ]
+      },
+      "elastic_transform": {
+        "train": [
+          "elastic_transform_0"
+        ],
+        "validation": [
+          "elastic_transform_2"
+        ],
+        "test": [
+          "elastic_transform_1"
+        ]
+      },
+      "fog": {
+        "train": [
+          "fog_0"
+        ],
+        "validation": [
+          "fog_1"
+        ],
+        "test": [
+          "fog_2"
+        ]
+      },
+      "frost": {
+        "train": [
+          "frost_2"
+        ],
+        "validation": [
+          "frost_1"
+        ],
+        "test": [
+          "frost_0"
+        ]
+      },
+      "gaussian_blur": {
+        "train": [
+          "gaussian_blur_0"
+        ],
+        "validation": [
+          "gaussian_blur_1"
+        ],
+        "test": [
+          "gaussian_blur_2"
+        ]
+      },
+      "gaussian_noise": {
+        "train": [
+          "gaussian_noise_1"
+        ],
+        "validation": [
+          "gaussian_noise_0"
+        ],
+        "test": [
+          "gaussian_noise_2"
+        ]
+      },
+      "glass_blur": {
+        "train": [
+          "glass_blur_1"
+        ],
+        "validation": [
+          "glass_blur_2"
+        ],
+        "test": [
+          "glass_blur_0"
+        ]
+      },
+      "impulse_noise": {
+        "train": [
+          "impulse_noise_1"
+        ],
+        "validation": [
+          "impulse_noise_2"
+        ],
+        "test": [
+          "impulse_noise_0"
+        ]
+      },
+      "jpeg_compression": {
+        "train": [
+          "jpeg_compression_1"
+        ],
+        "validation": [
+          "jpeg_compression_2"
+        ],
+        "test": [
+          "jpeg_compression_0"
+        ]
+      },
+      "motion_blur": {
+        "train": [
+          "motion_blur_0"
+        ],
+        "validation": [
+          "motion_blur_1"
+        ],
+        "test": [
+          "motion_blur_2"
+        ]
+      },
+      "pixelate": {
+        "train": [
+          "pixelate_0"
+        ],
+        "validation": [
+          "pixelate_1"
+        ],
+        "test": [
+          "pixelate_2"
+        ]
+      },
+      "saturate": {
+        "train": [
+          "saturate_0"
+        ],
+        "validation": [
+          "saturate_2"
+        ],
+        "test": [
+          "saturate_1"
+        ]
+      },
+      "shot_noise": {
+        "train": [
+          "shot_noise_2"
+        ],
+        "validation": [
+          "shot_noise_0"
+        ],
+        "test": [
+          "shot_noise_1"
+        ]
+      },
+      "snow": {
+        "train": [
+          "snow_2"
+        ],
+        "validation": [
+          "snow_0"
+        ],
+        "test": [
+          "snow_1"
+        ]
+      },
+      "spatter": {
+        "train": [
+          "spatter_1"
+        ],
+        "validation": [
+          "spatter_0"
+        ],
+        "test": [
+          "spatter_2"
+        ]
+      },
+      "speckle_noise": {
+        "train": [
+          "speckle_noise_2"
+        ],
+        "validation": [
+          "speckle_noise_0"
+        ],
+        "test": [
+          "speckle_noise_1"
+        ]
+      },
+      "zoom_blur": {
+        "train": [
+          "zoom_blur_2"
+        ],
+        "validation": [
+          "zoom_blur_1"
+        ],
+        "test": [
+          "zoom_blur_0"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "CIFAR100CFull",
+    "seed": 1,
+    "train": [
+      "brightness_1",
+      "contrast_2",
+      "defocus_blur_1",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_2",
+      "gaussian_blur_0",
+      "gaussian_noise_2",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_2",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "validation": [
+      "brightness_2",
+      "contrast_0",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_0",
+      "shot_noise_0",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_1"
+    ],
+    "test": [
+      "brightness_0",
+      "contrast_1",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_1",
+      "gaussian_blur_2",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_2",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_1",
+      "zoom_blur_2"
+    ],
+    "groups": {
+      "brightness": {
+        "train": [
+          "brightness_1"
+        ],
+        "validation": [
+          "brightness_2"
+        ],
+        "test": [
+          "brightness_0"
+        ]
+      },
+      "contrast": {
+        "train": [
+          "contrast_2"
+        ],
+        "validation": [
+          "contrast_0"
+        ],
+        "test": [
+          "contrast_1"
+        ]
+      },
+      "defocus_blur": {
+        "train": [
+          "defocus_blur_1"
+        ],
+        "validation": [
+          "defocus_blur_2"
+        ],
+        "test": [
+          "defocus_blur_0"
+        ]
+      },
+      "elastic_transform": {
+        "train": [
+          "elastic_transform_2"
+        ],
+        "validation": [
+          "elastic_transform_1"
+        ],
+        "test": [
+          "elastic_transform_0"
+        ]
+      },
+      "fog": {
+        "train": [
+          "fog_1"
+        ],
+        "validation": [
+          "fog_2"
+        ],
+        "test": [
+          "fog_0"
+        ]
+      },
+      "frost": {
+        "train": [
+          "frost_2"
+        ],
+        "validation": [
+          "frost_0"
+        ],
+        "test": [
+          "frost_1"
+        ]
+      },
+      "gaussian_blur": {
+        "train": [
+          "gaussian_blur_0"
+        ],
+        "validation": [
+          "gaussian_blur_1"
+        ],
+        "test": [
+          "gaussian_blur_2"
+        ]
+      },
+      "gaussian_noise": {
+        "train": [
+          "gaussian_noise_2"
+        ],
+        "validation": [
+          "gaussian_noise_0"
+        ],
+        "test": [
+          "gaussian_noise_1"
+        ]
+      },
+      "glass_blur": {
+        "train": [
+          "glass_blur_2"
+        ],
+        "validation": [
+          "glass_blur_0"
+        ],
+        "test": [
+          "glass_blur_1"
+        ]
+      },
+      "impulse_noise": {
+        "train": [
+          "impulse_noise_1"
+        ],
+        "validation": [
+          "impulse_noise_2"
+        ],
+        "test": [
+          "impulse_noise_0"
+        ]
+      },
+      "jpeg_compression": {
+        "train": [
+          "jpeg_compression_0"
+        ],
+        "validation": [
+          "jpeg_compression_2"
+        ],
+        "test": [
+          "jpeg_compression_1"
+        ]
+      },
+      "motion_blur": {
+        "train": [
+          "motion_blur_0"
+        ],
+        "validation": [
+          "motion_blur_1"
+        ],
+        "test": [
+          "motion_blur_2"
+        ]
+      },
+      "pixelate": {
+        "train": [
+          "pixelate_0"
+        ],
+        "validation": [
+          "pixelate_2"
+        ],
+        "test": [
+          "pixelate_1"
+        ]
+      },
+      "saturate": {
+        "train": [
+          "saturate_1"
+        ],
+        "validation": [
+          "saturate_0"
+        ],
+        "test": [
+          "saturate_2"
+        ]
+      },
+      "shot_noise": {
+        "train": [
+          "shot_noise_2"
+        ],
+        "validation": [
+          "shot_noise_0"
+        ],
+        "test": [
+          "shot_noise_1"
+        ]
+      },
+      "snow": {
+        "train": [
+          "snow_2"
+        ],
+        "validation": [
+          "snow_0"
+        ],
+        "test": [
+          "snow_1"
+        ]
+      },
+      "spatter": {
+        "train": [
+          "spatter_2"
+        ],
+        "validation": [
+          "spatter_0"
+        ],
+        "test": [
+          "spatter_1"
+        ]
+      },
+      "speckle_noise": {
+        "train": [
+          "speckle_noise_0"
+        ],
+        "validation": [
+          "speckle_noise_2"
+        ],
+        "test": [
+          "speckle_noise_1"
+        ]
+      },
+      "zoom_blur": {
+        "train": [
+          "zoom_blur_0"
+        ],
+        "validation": [
+          "zoom_blur_1"
+        ],
+        "test": [
+          "zoom_blur_2"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "CIFAR100CFull",
+    "seed": 2,
+    "train": [
+      "brightness_1",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_2",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_1",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "validation": [
+      "brightness_0",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_0",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_1"
+    ],
+    "test": [
+      "brightness_2",
+      "contrast_0",
+      "defocus_blur_1",
+      "elastic_transform_1",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_2",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "groups": {
+      "brightness": {
+        "train": [
+          "brightness_1"
+        ],
+        "validation": [
+          "brightness_0"
+        ],
+        "test": [
+          "brightness_2"
+        ]
+      },
+      "contrast": {
+        "train": [
+          "contrast_1"
+        ],
+        "validation": [
+          "contrast_2"
+        ],
+        "test": [
+          "contrast_0"
+        ]
+      },
+      "defocus_blur": {
+        "train": [
+          "defocus_blur_2"
+        ],
+        "validation": [
+          "defocus_blur_0"
+        ],
+        "test": [
+          "defocus_blur_1"
+        ]
+      },
+      "elastic_transform": {
+        "train": [
+          "elastic_transform_2"
+        ],
+        "validation": [
+          "elastic_transform_0"
+        ],
+        "test": [
+          "elastic_transform_1"
+        ]
+      },
+      "fog": {
+        "train": [
+          "fog_2"
+        ],
+        "validation": [
+          "fog_1"
+        ],
+        "test": [
+          "fog_0"
+        ]
+      },
+      "frost": {
+        "train": [
+          "frost_0"
+        ],
+        "validation": [
+          "frost_1"
+        ],
+        "test": [
+          "frost_2"
+        ]
+      },
+      "gaussian_blur": {
+        "train": [
+          "gaussian_blur_0"
+        ],
+        "validation": [
+          "gaussian_blur_1"
+        ],
+        "test": [
+          "gaussian_blur_2"
+        ]
+      },
+      "gaussian_noise": {
+        "train": [
+          "gaussian_noise_1"
+        ],
+        "validation": [
+          "gaussian_noise_0"
+        ],
+        "test": [
+          "gaussian_noise_2"
+        ]
+      },
+      "glass_blur": {
+        "train": [
+          "glass_blur_1"
+        ],
+        "validation": [
+          "glass_blur_2"
+        ],
+        "test": [
+          "glass_blur_0"
+        ]
+      },
+      "impulse_noise": {
+        "train": [
+          "impulse_noise_2"
+        ],
+        "validation": [
+          "impulse_noise_1"
+        ],
+        "test": [
+          "impulse_noise_0"
+        ]
+      },
+      "jpeg_compression": {
+        "train": [
+          "jpeg_compression_2"
+        ],
+        "validation": [
+          "jpeg_compression_0"
+        ],
+        "test": [
+          "jpeg_compression_1"
+        ]
+      },
+      "motion_blur": {
+        "train": [
+          "motion_blur_1"
+        ],
+        "validation": [
+          "motion_blur_2"
+        ],
+        "test": [
+          "motion_blur_0"
+        ]
+      },
+      "pixelate": {
+        "train": [
+          "pixelate_2"
+        ],
+        "validation": [
+          "pixelate_1"
+        ],
+        "test": [
+          "pixelate_0"
+        ]
+      },
+      "saturate": {
+        "train": [
+          "saturate_2"
+        ],
+        "validation": [
+          "saturate_0"
+        ],
+        "test": [
+          "saturate_1"
+        ]
+      },
+      "shot_noise": {
+        "train": [
+          "shot_noise_1"
+        ],
+        "validation": [
+          "shot_noise_0"
+        ],
+        "test": [
+          "shot_noise_2"
+        ]
+      },
+      "snow": {
+        "train": [
+          "snow_1"
+        ],
+        "validation": [
+          "snow_2"
+        ],
+        "test": [
+          "snow_0"
+        ]
+      },
+      "spatter": {
+        "train": [
+          "spatter_1"
+        ],
+        "validation": [
+          "spatter_2"
+        ],
+        "test": [
+          "spatter_0"
+        ]
+      },
+      "speckle_noise": {
+        "train": [
+          "speckle_noise_0"
+        ],
+        "validation": [
+          "speckle_noise_1"
+        ],
+        "test": [
+          "speckle_noise_2"
+        ]
+      },
+      "zoom_blur": {
+        "train": [
+          "zoom_blur_0"
+        ],
+        "validation": [
+          "zoom_blur_1"
+        ],
+        "test": [
+          "zoom_blur_2"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "CIFAR100CFull",
+    "seed": 3,
+    "train": [
+      "brightness_0",
+      "contrast_0",
+      "defocus_blur_0",
+      "elastic_transform_2",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_0",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_0",
+      "jpeg_compression_1",
+      "motion_blur_1",
+      "pixelate_0",
+      "saturate_1",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_2",
+      "speckle_noise_1",
+      "zoom_blur_1"
+    ],
+    "validation": [
+      "brightness_2",
+      "contrast_1",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_2",
+      "frost_0",
+      "gaussian_blur_1",
+      "gaussian_noise_1",
+      "glass_blur_2",
+      "impulse_noise_1",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_1",
+      "saturate_0",
+      "shot_noise_1",
+      "snow_1",
+      "spatter_1",
+      "speckle_noise_0",
+      "zoom_blur_0"
+    ],
+    "test": [
+      "brightness_1",
+      "contrast_2",
+      "defocus_blur_1",
+      "elastic_transform_0",
+      "fog_0",
+      "frost_2",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_1",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_2",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_2",
+      "snow_0",
+      "spatter_0",
+      "speckle_noise_2",
+      "zoom_blur_2"
+    ],
+    "groups": {
+      "brightness": {
+        "train": [
+          "brightness_0"
+        ],
+        "validation": [
+          "brightness_2"
+        ],
+        "test": [
+          "brightness_1"
+        ]
+      },
+      "contrast": {
+        "train": [
+          "contrast_0"
+        ],
+        "validation": [
+          "contrast_1"
+        ],
+        "test": [
+          "contrast_2"
+        ]
+      },
+      "defocus_blur": {
+        "train": [
+          "defocus_blur_0"
+        ],
+        "validation": [
+          "defocus_blur_2"
+        ],
+        "test": [
+          "defocus_blur_1"
+        ]
+      },
+      "elastic_transform": {
+        "train": [
+          "elastic_transform_2"
+        ],
+        "validation": [
+          "elastic_transform_1"
+        ],
+        "test": [
+          "elastic_transform_0"
+        ]
+      },
+      "fog": {
+        "train": [
+          "fog_1"
+        ],
+        "validation": [
+          "fog_2"
+        ],
+        "test": [
+          "fog_0"
+        ]
+      },
+      "frost": {
+        "train": [
+          "frost_1"
+        ],
+        "validation": [
+          "frost_0"
+        ],
+        "test": [
+          "frost_2"
+        ]
+      },
+      "gaussian_blur": {
+        "train": [
+          "gaussian_blur_0"
+        ],
+        "validation": [
+          "gaussian_blur_1"
+        ],
+        "test": [
+          "gaussian_blur_2"
+        ]
+      },
+      "gaussian_noise": {
+        "train": [
+          "gaussian_noise_0"
+        ],
+        "validation": [
+          "gaussian_noise_1"
+        ],
+        "test": [
+          "gaussian_noise_2"
+        ]
+      },
+      "glass_blur": {
+        "train": [
+          "glass_blur_0"
+        ],
+        "validation": [
+          "glass_blur_2"
+        ],
+        "test": [
+          "glass_blur_1"
+        ]
+      },
+      "impulse_noise": {
+        "train": [
+          "impulse_noise_0"
+        ],
+        "validation": [
+          "impulse_noise_1"
+        ],
+        "test": [
+          "impulse_noise_2"
+        ]
+      },
+      "jpeg_compression": {
+        "train": [
+          "jpeg_compression_1"
+        ],
+        "validation": [
+          "jpeg_compression_0"
+        ],
+        "test": [
+          "jpeg_compression_2"
+        ]
+      },
+      "motion_blur": {
+        "train": [
+          "motion_blur_1"
+        ],
+        "validation": [
+          "motion_blur_0"
+        ],
+        "test": [
+          "motion_blur_2"
+        ]
+      },
+      "pixelate": {
+        "train": [
+          "pixelate_0"
+        ],
+        "validation": [
+          "pixelate_1"
+        ],
+        "test": [
+          "pixelate_2"
+        ]
+      },
+      "saturate": {
+        "train": [
+          "saturate_1"
+        ],
+        "validation": [
+          "saturate_0"
+        ],
+        "test": [
+          "saturate_2"
+        ]
+      },
+      "shot_noise": {
+        "train": [
+          "shot_noise_0"
+        ],
+        "validation": [
+          "shot_noise_1"
+        ],
+        "test": [
+          "shot_noise_2"
+        ]
+      },
+      "snow": {
+        "train": [
+          "snow_2"
+        ],
+        "validation": [
+          "snow_1"
+        ],
+        "test": [
+          "snow_0"
+        ]
+      },
+      "spatter": {
+        "train": [
+          "spatter_2"
+        ],
+        "validation": [
+          "spatter_1"
+        ],
+        "test": [
+          "spatter_0"
+        ]
+      },
+      "speckle_noise": {
+        "train": [
+          "speckle_noise_1"
+        ],
+        "validation": [
+          "speckle_noise_0"
+        ],
+        "test": [
+          "speckle_noise_2"
+        ]
+      },
+      "zoom_blur": {
+        "train": [
+          "zoom_blur_1"
+        ],
+        "validation": [
+          "zoom_blur_0"
+        ],
+        "test": [
+          "zoom_blur_2"
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "CIFAR100CFull",
+    "seed": 4,
+    "train": [
+      "brightness_0",
+      "contrast_0",
+      "defocus_blur_2",
+      "elastic_transform_1",
+      "fog_0",
+      "frost_0",
+      "gaussian_blur_0",
+      "gaussian_noise_1",
+      "glass_blur_2",
+      "impulse_noise_2",
+      "jpeg_compression_2",
+      "motion_blur_2",
+      "pixelate_1",
+      "saturate_1",
+      "shot_noise_1",
+      "snow_0",
+      "spatter_2",
+      "speckle_noise_2",
+      "zoom_blur_1"
+    ],
+    "validation": [
+      "brightness_1",
+      "contrast_1",
+      "defocus_blur_1",
+      "elastic_transform_2",
+      "fog_2",
+      "frost_2",
+      "gaussian_blur_1",
+      "gaussian_noise_0",
+      "glass_blur_0",
+      "impulse_noise_1",
+      "jpeg_compression_1",
+      "motion_blur_1",
+      "pixelate_2",
+      "saturate_2",
+      "shot_noise_0",
+      "snow_2",
+      "spatter_1",
+      "speckle_noise_1",
+      "zoom_blur_0"
+    ],
+    "test": [
+      "brightness_2",
+      "contrast_2",
+      "defocus_blur_0",
+      "elastic_transform_0",
+      "fog_1",
+      "frost_1",
+      "gaussian_blur_2",
+      "gaussian_noise_2",
+      "glass_blur_1",
+      "impulse_noise_0",
+      "jpeg_compression_0",
+      "motion_blur_0",
+      "pixelate_0",
+      "saturate_0",
+      "shot_noise_2",
+      "snow_1",
+      "spatter_0",
+      "speckle_noise_0",
+      "zoom_blur_2"
+    ],
+    "groups": {
+      "brightness": {
+        "train": [
+          "brightness_0"
+        ],
+        "validation": [
+          "brightness_1"
+        ],
+        "test": [
+          "brightness_2"
+        ]
+      },
+      "contrast": {
+        "train": [
+          "contrast_0"
+        ],
+        "validation": [
+          "contrast_1"
+        ],
+        "test": [
+          "contrast_2"
+        ]
+      },
+      "defocus_blur": {
+        "train": [
+          "defocus_blur_2"
+        ],
+        "validation": [
+          "defocus_blur_1"
+        ],
+        "test": [
+          "defocus_blur_0"
+        ]
+      },
+      "elastic_transform": {
+        "train": [
+          "elastic_transform_1"
+        ],
+        "validation": [
+          "elastic_transform_2"
+        ],
+        "test": [
+          "elastic_transform_0"
+        ]
+      },
+      "fog": {
+        "train": [
+          "fog_0"
+        ],
+        "validation": [
+          "fog_2"
+        ],
+        "test": [
+          "fog_1"
+        ]
+      },
+      "frost": {
+        "train": [
+          "frost_0"
+        ],
+        "validation": [
+          "frost_2"
+        ],
+        "test": [
+          "frost_1"
+        ]
+      },
+      "gaussian_blur": {
+        "train": [
+          "gaussian_blur_0"
+        ],
+        "validation": [
+          "gaussian_blur_1"
+        ],
+        "test": [
+          "gaussian_blur_2"
+        ]
+      },
+      "gaussian_noise": {
+        "train": [
+          "gaussian_noise_1"
+        ],
+        "validation": [
+          "gaussian_noise_0"
+        ],
+        "test": [
+          "gaussian_noise_2"
+        ]
+      },
+      "glass_blur": {
+        "train": [
+          "glass_blur_2"
+        ],
+        "validation": [
+          "glass_blur_0"
+        ],
+        "test": [
+          "glass_blur_1"
+        ]
+      },
+      "impulse_noise": {
+        "train": [
+          "impulse_noise_2"
+        ],
+        "validation": [
+          "impulse_noise_1"
+        ],
+        "test": [
+          "impulse_noise_0"
+        ]
+      },
+      "jpeg_compression": {
+        "train": [
+          "jpeg_compression_2"
+        ],
+        "validation": [
+          "jpeg_compression_1"
+        ],
+        "test": [
+          "jpeg_compression_0"
+        ]
+      },
+      "motion_blur": {
+        "train": [
+          "motion_blur_2"
+        ],
+        "validation": [
+          "motion_blur_1"
+        ],
+        "test": [
+          "motion_blur_0"
+        ]
+      },
+      "pixelate": {
+        "train": [
+          "pixelate_1"
+        ],
+        "validation": [
+          "pixelate_2"
+        ],
+        "test": [
+          "pixelate_0"
+        ]
+      },
+      "saturate": {
+        "train": [
+          "saturate_1"
+        ],
+        "validation": [
+          "saturate_2"
+        ],
+        "test": [
+          "saturate_0"
+        ]
+      },
+      "shot_noise": {
+        "train": [
+          "shot_noise_1"
+        ],
+        "validation": [
+          "shot_noise_0"
+        ],
+        "test": [
+          "shot_noise_2"
+        ]
+      },
+      "snow": {
+        "train": [
+          "snow_0"
+        ],
+        "validation": [
+          "snow_2"
+        ],
+        "test": [
+          "snow_1"
+        ]
+      },
+      "spatter": {
+        "train": [
+          "spatter_2"
+        ],
+        "validation": [
+          "spatter_1"
+        ],
+        "test": [
+          "spatter_0"
+        ]
+      },
+      "speckle_noise": {
+        "train": [
+          "speckle_noise_2"
+        ],
+        "validation": [
+          "speckle_noise_1"
+        ],
+        "test": [
+          "speckle_noise_0"
+        ]
+      },
+      "zoom_blur": {
+        "train": [
+          "zoom_blur_1"
+        ],
+        "validation": [
+          "zoom_blur_0"
+        ],
+        "test": [
+          "zoom_blur_2"
+        ]
+      }
+    }
+  }
+]

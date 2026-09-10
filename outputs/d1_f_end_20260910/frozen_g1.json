@@ -1,0 +1,42 @@
+{
+  "source_output": "outputs/d1_f_preflight_20260909_v2",
+  "R1": {
+    "passed": true,
+    "details": {
+      "CIFAR100CFull": {
+        "latte_better_than_no_adapt": true,
+        "latte_anchor_within_1_point": true,
+        "no_adapt_anchor_within_1_point": true,
+        "positive_seed_count_at_least_4": true,
+        "full_sample_count": true
+      },
+      "VLCS": {
+        "latte_better_than_no_adapt": true,
+        "latte_anchor_within_1_point": true,
+        "no_adapt_anchor_within_1_point": true,
+        "positive_seed_count_at_least_4": true,
+        "full_sample_count": true
+      }
+    }
+  },
+  "R2": {
+    "passed": true,
+    "at_least_one_dataset_gain_ge_0p5": true,
+    "other_dataset_decline_le_0p2": true,
+    "details": {
+      "CIFAR100CFull": {
+        "gain_ge_0p5": false,
+        "positive_seed_count_at_least_4": true,
+        "paired_client_ci_lower_gt_zero": true
+      },
+      "VLCS": {
+        "gain_ge_0p5": true,
+        "positive_seed_count_at_least_4": true,
+        "paired_client_ci_lower_gt_zero": true
+      }
+    }
+  },
+  "R3": true,
+  "G1": true,
+  "note": "Frozen from prior D1-F run; not recomputed in D1-F-End."
+}

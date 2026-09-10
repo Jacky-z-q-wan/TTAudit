@@ -1,0 +1,281 @@
+{
+  "all_attack_ready_prototype_finite": true,
+  "all_attack_ready_uncertainty_finite": true,
+  "valid_mask_derived_from_raw": true,
+  "private_diagnostics_not_loaded_as_features": true,
+  "raw_hashes_match_returned_tensors": true,
+  "per_client_phase_message_count": true,
+  "time_segment_sample_overlap_zero": true,
+  "cifar_raw_shape_100x512": true,
+  "vlcs_raw_shape_5x512": true,
+  "cifar_family_mapping_is_four_class": true,
+  "all_checks_passed": true,
+  "details": {
+    "runs": [
+      {
+        "dataset": "CIFAR100CFull",
+        "seed": 0,
+        "message_count": 1368,
+        "client_count": 57,
+        "phase_counts": {
+          "train": 456,
+          "validation": 456,
+          "future": 456
+        },
+        "prototype_shape": [
+          1368,
+          100,
+          512
+        ],
+        "uncertainty_shape": [
+          1368,
+          100
+        ],
+        "expected_class_count": 100,
+        "phase_sample_id_hashes": {
+          "train": "3e37a675112fc444cdcfde2278cb336796ded778abb99f5ab44946cb7b1c1c3d",
+          "validation": "b0cac7a3fd3a09a42eb8267179cf5f85e0385f5873b74f3c9f573af3491483f6",
+          "future": "e39af68906a5cbd9ca6ce602c3b4e62aa7ff7756cab364629e725ce0d664f613"
+        }
+      },
+      {
+        "dataset": "CIFAR100CFull",
+        "seed": 1,
+        "message_count": 1368,
+        "client_count": 57,
+        "phase_counts": {
+          "train": 456,
+          "validation": 456,
+          "future": 456
+        },
+        "prototype_shape": [
+          1368,
+          100,
+          512
+        ],
+        "uncertainty_shape": [
+          1368,
+          100
+        ],
+        "expected_class_count": 100,
+        "phase_sample_id_hashes": {
+          "train": "93ae82107ce3ad2e18da5482fe0edd53099de018311a0ec24e323347366564ff",
+          "validation": "6e3832d76ba65306d11dc7cb23c5c600dbace778fcc93208a9423f2257f518ee",
+          "future": "2ee91589af49f0121c6d3f3938488caf8b88fad5091be9781606e3b7ba765467"
+        }
+      },
+      {
+        "dataset": "CIFAR100CFull",
+        "seed": 2,
+        "message_count": 1368,
+        "client_count": 57,
+        "phase_counts": {
+          "train": 456,
+          "validation": 456,
+          "future": 456
+        },
+        "prototype_shape": [
+          1368,
+          100,
+          512
+        ],
+        "uncertainty_shape": [
+          1368,
+          100
+        ],
+        "expected_class_count": 100,
+        "phase_sample_id_hashes": {
+          "train": "eab5f1c727f83878ed9a7096aa6de1f014033ffa81077fbe259587120423d0f7",
+          "validation": "35bafef4f4f06a7a0ddda8fec4e027b8158dd49441748c6f83dcb464510bc974",
+          "future": "03a4f2c1644eaf7cf155fe38c07014dc4b032c0f1cd0d27c6fed20a30aec7cd5"
+        }
+      },
+      {
+        "dataset": "CIFAR100CFull",
+        "seed": 3,
+        "message_count": 1368,
+        "client_count": 57,
+        "phase_counts": {
+          "train": 456,
+          "validation": 456,
+          "future": 456
+        },
+        "prototype_shape": [
+          1368,
+          100,
+          512
+        ],
+        "uncertainty_shape": [
+          1368,
+          100
+        ],
+        "expected_class_count": 100,
+        "phase_sample_id_hashes": {
+          "train": "323e7b7ff7021d193be38d0db8f3468b970069a657be9cb718180dd1f9c4b2fd",
+          "validation": "b739d93e20c9cbfa882c8332d09ec989f08e1b7a939cb63d0de583234dc33213",
+          "future": "472ff5271bb25ece022690656833a1fc37aa1c203450e7dedbbcd3c9be0c2be1"
+        }
+      },
+      {
+        "dataset": "CIFAR100CFull",
+        "seed": 4,
+        "message_count": 1368,
+        "client_count": 57,
+        "phase_counts": {
+          "train": 456,
+          "validation": 456,
+          "future": 456
+        },
+        "prototype_shape": [
+          1368,
+          100,
+          512
+        ],
+        "uncertainty_shape": [
+          1368,
+          100
+        ],
+        "expected_class_count": 100,
+        "phase_sample_id_hashes": {
+          "train": "b3d6a369b2ec41afd1df205a99100a864a39bb192059f61ab33a41715a035217",
+          "validation": "8bc4407cdb8d615ec6fd863e69a2cc34f32389888f431df79ed782cf907af619",
+          "future": "dc93c6f6a1e4ee7c3b720a9c23b920fab1a4dd4c5e475fdfb8ee4120675faec1"
+        }
+      },
+      {
+        "dataset": "VLCS",
+        "seed": 0,
+        "message_count": 960,
+        "client_count": 40,
+        "phase_counts": {
+          "train": 320,
+          "validation": 320,
+          "future": 320
+        },
+        "prototype_shape": [
+          960,
+          5,
+          512
+        ],
+        "uncertainty_shape": [
+          960,
+          5
+        ],
+        "expected_class_count": 5,
+        "phase_sample_id_hashes": {
+          "train": "700c95de942b4648c747fde7f5a4f6be07486227362966185da627527149cbd2",
+          "validation": "6b344e377416749f627837bb3264baf8f2a82e59e2dfffa1717796346611bf10",
+          "future": "6973c4d57c0bf19980d5cf965e90926c0315fa30025b07ee40e2d2b1f2c5d90c"
+        }
+      },
+      {
+        "dataset": "VLCS",
+        "seed": 1,
+        "message_count": 960,
+        "client_count": 40,
+        "phase_counts": {
+          "train": 320,
+          "validation": 320,
+          "future": 320
+        },
+        "prototype_shape": [
+          960,
+          5,
+          512
+        ],
+        "uncertainty_shape": [
+          960,
+          5
+        ],
+        "expected_class_count": 5,
+        "phase_sample_id_hashes": {
+          "train": "e0eb78090b16bf409fe0a3153d7571d7e7f59c05b79bd58bd5f420b19da11694",
+          "validation": "fa19011fe0a2c4230232bf44862af1d6c05da3f7afaa23ed89f2280a3beb2a36",
+          "future": "c12dfd91c241b1da647d34c36c9c00e4d8e856b7408fb4fa53dc4b2d53df16d9"
+        }
+      },
+      {
+        "dataset": "VLCS",
+        "seed": 2,
+        "message_count": 960,
+        "client_count": 40,
+        "phase_counts": {
+          "train": 320,
+          "validation": 320,
+          "future": 320
+        },
+        "prototype_shape": [
+          960,
+          5,
+          512
+        ],
+        "uncertainty_shape": [
+          960,
+          5
+        ],
+        "expected_class_count": 5,
+        "phase_sample_id_hashes": {
+          "train": "74dcfae468f2c60ef2543f353c11001376f6b3109822637a63d61b9f90e4f379",
+          "validation": "df054b0bab08f6e0f313f4ecf23443f24c6d40cbdafed2d4565577c66ab65d50",
+          "future": "91dd894d398682531348d62dbbe56d32be42d19af902a7104e7a37de37d2afd4"
+        }
+      },
+      {
+        "dataset": "VLCS",
+        "seed": 3,
+        "message_count": 960,
+        "client_count": 40,
+        "phase_counts": {
+          "train": 320,
+          "validation": 320,
+          "future": 320
+        },
+        "prototype_shape": [
+          960,
+          5,
+          512
+        ],
+        "uncertainty_shape": [
+          960,
+          5
+        ],
+        "expected_class_count": 5,
+        "phase_sample_id_hashes": {
+          "train": "ab4c4369e4cb5896d7773f406c6736677576cf713933553e4f9f33a9bd0e556f",
+          "validation": "03863617a423a58573a6a90bafe0859be35db5ea9d774b03d0e744a35759f549",
+          "future": "2f7d4a9915cdb8956fe5ced5cf3131cad512219f916001eee055c50e55c1434e"
+        }
+      },
+      {
+        "dataset": "VLCS",
+        "seed": 4,
+        "message_count": 960,
+        "client_count": 40,
+        "phase_counts": {
+          "train": 320,
+          "validation": 320,
+          "future": 320
+        },
+        "prototype_shape": [
+          960,
+          5,
+          512
+        ],
+        "uncertainty_shape": [
+          960,
+          5
+        ],
+        "expected_class_count": 5,
+        "phase_sample_id_hashes": {
+          "train": "2d4f8ffdd7b85e5d3ffc6a63e49aec5eeb6d56157e128f84df0b5d5c82cf655b",
+          "validation": "4af698065d1c181d8529ccf99667f1c869303a07ea5c174f22c9bc26816109d5",
+          "future": "373713521a6e299579d4b3a11138dc000fa8d09d56f34cbe36fd55f63d4c43d6"
+        }
+      }
+    ]
+  },
+  "temporal_pair_features_finite": true,
+  "client_splits_disjoint": true,
+  "temporal_training_budget_fixed": true,
+  "replay_match": true
+}

@@ -1,0 +1,622 @@
+[
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 1.0,
+    "auroc": 0.375,
+    "balanced_accuracy": 43.75,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      62.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 0,
+    "q": 1,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "auroc": 0.5625,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.25,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 0,
+    "q": 2,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 10.0,
+    "auroc": 0.328125,
+    "balanced_accuracy": 31.25,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      6.25,
+      56.25
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 0,
+    "q": 4,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 10.0,
+    "auroc": 0.34375,
+    "balanced_accuracy": 31.25,
+    "tpr_at_fpr_1_percent": 0.125,
+    "client_bootstrap_ci95_accuracy": [
+      6.25,
+      56.25
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 0,
+    "q": 8,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "auroc": 0.453125,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      18.75,
+      81.25
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 1,
+    "q": 1,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 10.0,
+    "auroc": 0.4375,
+    "balanced_accuracy": 56.25,
+    "tpr_at_fpr_1_percent": 0.25,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      87.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 1,
+    "q": 2,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.453125,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 1,
+    "q": 4,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "auroc": 0.5625,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.25,
+    "client_bootstrap_ci95_accuracy": [
+      31.25,
+      68.75
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 1,
+    "q": 8,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.5,
+    "balanced_accuracy": 37.5,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      18.75,
+      62.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 2,
+    "q": 1,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.15625,
+    "balanced_accuracy": 18.75,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      6.25,
+      37.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 2,
+    "q": 2,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "linear_svm",
+    "parameter": 10.0,
+    "auroc": 0.21875,
+    "balanced_accuracy": 31.25,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      12.343750000000009,
+      56.25
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 2,
+    "q": 4,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.421875,
+    "balanced_accuracy": 31.25,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      12.5,
+      56.25
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 2,
+    "q": 8,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 10.0,
+    "auroc": 0.296875,
+    "balanced_accuracy": 31.25,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      12.5,
+      43.75
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 3,
+    "q": 1,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.484375,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 3,
+    "q": 2,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "auroc": 0.25,
+    "balanced_accuracy": 43.75,
+    "tpr_at_fpr_1_percent": 0.125,
+    "client_bootstrap_ci95_accuracy": [
+      18.75,
+      68.75
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 3,
+    "q": 4,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 0.1,
+    "auroc": 0.515625,
+    "balanced_accuracy": 56.25,
+    "tpr_at_fpr_1_percent": 0.125,
+    "client_bootstrap_ci95_accuracy": [
+      37.5,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 3,
+    "q": 8,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 1.0,
+    "auroc": 0.3125,
+    "balanced_accuracy": 37.5,
+    "tpr_at_fpr_1_percent": 0.0,
+    "client_bootstrap_ci95_accuracy": [
+      18.75,
+      62.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 4,
+    "q": 1,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "nearest_class_center",
+    "parameter": 0.0,
+    "auroc": 0.71875,
+    "balanced_accuracy": 56.25,
+    "tpr_at_fpr_1_percent": 0.125,
+    "client_bootstrap_ci95_accuracy": [
+      37.5,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 4,
+    "q": 2,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 1.0,
+    "auroc": 0.578125,
+    "balanced_accuracy": 43.75,
+    "tpr_at_fpr_1_percent": 0.25,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      62.5
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 4,
+    "q": 4,
+    "expected_random_balanced_accuracy": 50.0
+  },
+  {
+    "status": "completed",
+    "mode": "payload",
+    "model": "logistic_regression",
+    "parameter": 10.0,
+    "auroc": 0.578125,
+    "balanced_accuracy": 50.0,
+    "tpr_at_fpr_1_percent": 0.375,
+    "client_bootstrap_ci95_accuracy": [
+      25.0,
+      75.0
+    ],
+    "pair_count": 16,
+    "feature_shapes": [
+      [
+        48,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        18
+      ]
+    ],
+    "seed": 4,
+    "q": 8,
+    "expected_random_balanced_accuracy": 50.0
+  }
+]

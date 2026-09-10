@@ -1,0 +1,97 @@
+{
+  "G1": true,
+  "G2": true,
+  "G3": false,
+  "G4": true,
+  "vlcs_hidden_domain": {
+    "dataset": "VLCS",
+    "mode": "payload",
+    "seed_count": 5,
+    "mean_balanced_accuracy": 97.8125,
+    "mean_client_ci_lower": 94.0625,
+    "passed": true
+  },
+  "cifar_family": {
+    "dataset": "CIFAR_family",
+    "mode": "payload",
+    "seed_count": 5,
+    "mean_balanced_accuracy": 87.875,
+    "mean_client_ci_lower": 72.6282894736842,
+    "passed": true
+  },
+  "temporal": {
+    "1": {
+      "q": 1,
+      "seed_count": 5,
+      "mean_auroc": 0.978125,
+      "mean_client_ci_lower": 0.775,
+      "passed": true
+    },
+    "2": {
+      "q": 2,
+      "seed_count": 5,
+      "mean_auroc": 0.975,
+      "mean_client_ci_lower": 0.725,
+      "passed": true
+    },
+    "4": {
+      "q": 4,
+      "seed_count": 5,
+      "mean_auroc": 0.95625,
+      "mean_client_ci_lower": 0.65,
+      "passed": true
+    },
+    "8": {
+      "q": 8,
+      "seed_count": 5,
+      "mean_auroc": 0.934375,
+      "mean_client_ci_lower": 0.55,
+      "passed": false
+    }
+  },
+  "leave_one_corruption_out_mean_balanced_accuracy": 61.8421052631579,
+  "leave_one_corruption_out_supported": true,
+  "random_control": {
+    "hidden_values": [
+      21.5625,
+      26.875,
+      20.0,
+      25.0,
+      25.78125,
+      28.125,
+      18.75,
+      21.875,
+      20.3125,
+      34.375
+    ],
+    "temporal_q4_values": [
+      31.25,
+      50.0,
+      31.25,
+      43.75,
+      43.75
+    ],
+    "hidden_within_15_points_of_25": true,
+    "temporal_q4_within_15_points_of_50": false,
+    "passed": false
+  },
+  "header_scale_free_not_sufficient": true,
+  "membership_negative_control": {
+    "source": "outputs/d1_f_preflight_20260909_v2/attacks/sample_membership_negative_control/metrics.json",
+    "result": {
+      "status": "completed",
+      "dataset": "VLCS",
+      "client_id": "VOC2007_9",
+      "member_count": 32,
+      "nonmember_count": 32,
+      "auc": 0.5185546875,
+      "note": "Representative sample-membership negative control only; not a D1-F gate."
+    }
+  },
+  "replay": {
+    "replay_match": true,
+    "hidden_match": true,
+    "temporal_match": true
+  },
+  "decision": "A2/D1/D1-F 全面归档"
+}
